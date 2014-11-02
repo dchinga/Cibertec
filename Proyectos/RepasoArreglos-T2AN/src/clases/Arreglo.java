@@ -438,7 +438,7 @@ public class Arreglo {
 			// n[pos2];
 			n[pos1] = n[pos2];
 			// 3.3. Asignar la variable auxiliar al 2do elemento: n[pos2] = aux;
-			n[pos2] = aux;
+			
 		} else {
 			JOptionPane
 					.showMessageDialog(null,
