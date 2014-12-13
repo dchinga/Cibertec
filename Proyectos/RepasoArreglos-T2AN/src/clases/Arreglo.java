@@ -320,7 +320,47 @@ public class Arreglo {
 			return -1;
 	}
 
+	public int segundoComienzaCon2() {
+		int contador = 0;
+		int q = 0;
+
+		for (int i = 0; i < longitud(); i--) {
+			q = n[i];
+
+			while (q >= 10) {
+				q = q / 10;
+			}
+
+			if (q == 2 && ++contador == 2) {
+				return n[i];
+			}
+		}
+		// Si no se encuentra se retorna -1
+		return -1;
+
+	}
+
 	/* METODOS DE REEMPLAZO */
+
+	public void tercerParPorMenor() {
+
+		int pos = -1, contador = 0;
+		int menor = n[0];
+		
+		for (int i = 0; i < longitud(); i++) {
+			if (n[i] % 2 == 0 && ++contador == 3)
+				pos = i;
+			
+			if (n[i] < menor)
+				menor = n[i];
+		}
+
+		if (pos != -1)
+			n[pos] = menor;
+		else
+			JOptionPane.showMessageDialog(null,
+					"Reemplazo 1: No se encontró la posición y/o el valor");
+	}
 
 	// 20. El cuarto número par por la suma de todos los números
 	public void reemplazo1() {
@@ -445,38 +485,48 @@ public class Arreglo {
 							"Intercambio 1: No se encontró una o ninguna de las posiciones");
 		}
 	}
-	
-	// 23.	El primer número par por el último número cuyo último dígito sea cinco (5).
-	public void intercambio2(){
-		if(n != null){
+
+	// 23. El primer número par por el último número cuyo último dígito sea
+	// cinco (5).
+	public void intercambio2() {
+		if (n != null) {
 			// El primer número par
 			int pos1 = -1;
 			for (int i = 0; i < longitud(); i++) {
-				if(n[i] % 2 == 0){
+				if (n[i] % 2 == 0) {
 					pos1 = i;
 					break; // Si encontramos el primero, se termina el for
 				}
 			}
-			
+
 			// último número cuyo último dígito sea cinco (5)
 			int pos2 = -1;
 			// se recorre de DERECHA a IZQUIERDA
 			for (int i = longitud() - 1; i >= 0; i--) {
-				if(n[i] % 10 == 5){
+				if (n[i] % 10 == 5) {
 					pos2 = i;
 					break;
 				}
 			}
-			
-			if(pos1 != -1 && pos2 != -1){
+
+			if (pos1 != -1 && pos2 != -1) {
 				int aux = n[pos1];
 				n[pos1] = n[pos2];
 				n[pos2] = aux;
-			}
-			else{
-				JOptionPane.showMessageDialog(null, "Intercambio 2: No se realizo el intercambio.");
+			} else {
+				JOptionPane.showMessageDialog(null,
+						"Intercambio 2: No se realizo el intercambio.");
 			}
 		}
 	}
 
+	/* A partir de aquí es la solucion de Teoria de los alumnos */
+	public int cesar() {
+		int c = 0;
+		for (int i = 0; i < n.length; i++) {
+			if (n[i] % 10 == 5 && ++c == 2)
+				return n[i];
+		}
+		return -1;
+	}
 }
