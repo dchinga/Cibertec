@@ -98,7 +98,7 @@ public class Principal implements ActionListener {
 	private void initialize() {
 		frmSistemaDeGestin = new JFrame();
 		// frmSistemaDeGestin.setIconImage(Toolkit.getDefaultToolkit().getImage(Principal.class.getResource("/recursos/img_hotel.png")));
-		frmSistemaDeGestin.setTitle("Sistema de Gesti\u00F3n Hotelera - version 1.0");
+		frmSistemaDeGestin.setTitle("Sistema de Gesti\u00F3n Hotelera - version 1.0.00");
 		frmSistemaDeGestin.setResizable(false);
 		frmSistemaDeGestin.setBounds(100, 100, 733, 627);
 		frmSistemaDeGestin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
