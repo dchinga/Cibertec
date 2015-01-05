@@ -74,7 +74,7 @@ public class FrmCliente extends JFrame implements ActionListener {
 	 */
 	private FrmCliente() {
 		setResizable(false);
-		setTitle("Sistema de Gesti\u00F3n Hotelera");
+		setTitle("Sistema de Gesti\u00F3n Hotelera - Mantenimiento de Clientes");
 
 		setBounds(100, 100, 805, 529);
 		contentPane = new JPanel();
