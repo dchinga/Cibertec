@@ -77,7 +77,7 @@ public class FrmRecepcionistas extends JFrame implements ActionListener {
 	 */
 	private FrmRecepcionistas() {
 		setResizable(false);
-		setTitle("Sistema de Gesti\u00F3n Hotelera");
+		setTitle("Sistema de Gesti\u00F3n Hotelera - Mantenimiento de recepcionistas");
 
 		setBounds(100, 100, 805, 529);
 		contentPane = new JPanel();
