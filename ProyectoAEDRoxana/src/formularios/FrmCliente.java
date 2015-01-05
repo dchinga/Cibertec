@@ -1,10 +1,9 @@
 package formularios;
 
-import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import java.awt.Font;
@@ -14,20 +13,23 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 import javax.swing.JComboBox;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
 
 import controladores.ControladorCliente;
-import controladores.ControladorHabitacion;
 import entidades.Cliente;
-import entidades.Habitacion;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.ImageIcon;
+import javax.swing.JTable;
 
-public class FrmCliente extends JFrame implements ActionListener {
+public class FrmCliente extends JFrame implements ActionListener,
+		MouseListener, KeyListener {
 
 	/**
 	 * 
@@ -48,7 +50,6 @@ public class FrmCliente extends JFrame implements ActionListener {
 	private JTextField txtCodigo;
 	private JTextField txtApellido;
 	private JScrollPane scpPanel;
-	private JTextArea txtS;
 	private JLabel lblOpciones;
 
 	ControladorCliente controlador = new ControladorCliente();
@@ -68,6 +69,7 @@ public class FrmCliente extends JFrame implements ActionListener {
 	 */
 	private static FrmCliente instancia = null;
 	private JLabel lblCabecera;
+	private JTable table;
 
 	/**
 	 * Constructor privado del formulario
@@ -87,7 +89,8 @@ public class FrmCliente extends JFrame implements ActionListener {
 			btnAgregar.addActionListener(this);
 			{
 				lblCabecera = new JLabel("");
-				lblCabecera.setIcon(new ImageIcon(FrmCliente.class.getResource("/recursos/cliente.png")));
+				lblCabecera.setIcon(new ImageIcon(FrmCliente.class
+						.getResource("/recursos/cliente.png")));
 				lblCabecera.setBounds(0, 0, 800, 150);
 				contentPane.add(lblCabecera);
 			}
@@ -126,7 +129,7 @@ public class FrmCliente extends JFrame implements ActionListener {
 		}
 		{
 			btnListar = new JButton("Listar");
-			btnListar.setBounds(524, 357, 89, 23);
+			btnListar.setBounds(431, 323, 89, 23);
 			contentPane.add(btnListar);
 		}
 		{
@@ -164,12 +167,20 @@ public class FrmCliente extends JFrame implements ActionListener {
 			txtApellido.setColumns(10);
 		}
 		{
-			scpPanel = new JScrollPane();
-			scpPanel.setBounds(10, 384, 481, 105);
+			table = new JTable();
+			table.addKeyListener(this);
+			table.addMouseListener(this);
+			table.setForeground(new Color(148, 0, 211));
+			table.setBackground(new Color(255, 250, 240));
+			table.setModel(new DefaultTableModel(new Object[][] {},
+					new String[] { "Código", "Apellido", "Nombre", "Teléfono",
+							"Estado" }));
+			scpPanel = new JScrollPane(table);
+			scpPanel.setBackground(new Color(255, 250, 240));
+			scpPanel.setBounds(10, 357, 734, 132);
 			contentPane.add(scpPanel);
 			{
-				txtS = new JTextArea();
-				scpPanel.setViewportView(txtS);
+				scpPanel.setViewportView(table);
 			}
 		}
 		{
@@ -211,104 +222,55 @@ public class FrmCliente extends JFrame implements ActionListener {
 			contentPane.add(cboEstado);
 		}
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		habilitar();
+		habilitar(false);
+		listar();
 	}
 
-	/**
-	 * @return Única instancia del formulario
-	 */
-	public static FrmCliente getInstance() {
-		if (instancia == null)
-			instancia = new FrmCliente();
-
-		return instancia;
-	}
-
-	public void actionPerformed(ActionEvent arg0) {
-		if (arg0.getSource() == btnEliminar) {
-			btnEliminarActionPerformed(arg0);
+	public void actionPerformed(ActionEvent e) {
+		if (e.getSource() == btnAgregar) {
+			btnAgregarActionPerformed(e);
 		}
-		if (arg0.getSource() == btnConsultar) {
-			btnConsultarActionPerformed(arg0);
+		if (e.getSource() == btnEditar) {
+			btnEditarActionPerformed(e);
 		}
-		if (arg0.getSource() == btnCancelar) {
-			btnCancelarActionPerformed(arg0);
+		if (e.getSource() == btnEliminar) {
+			btnEliminarActionPerformed(e);
 		}
-		if (arg0.getSource() == btnGuardar) {
-			btnGuardarActionPerformed(arg0);
+		if (e.getSource() == btnGuardar) {
+			btnGuardarActionPerformed(e);
 		}
-		if (arg0.getSource() == btnEditar) {
-			btnEditarActionPerformed(arg0);
+		if (e.getSource() == btnCancelar) {
+			btnCancelarActionPerformed(e);
 		}
-		if (arg0.getSource() == btnAgregar) {
-			btnAgregarActionPerformed(arg0);
+		if (e.getSource() == btnConsultar) {
+			btnConsultarActionPerformed(e);
+		}
+		if (e.getSource() == btnListar) {
+			btnListarActionPerformed(e);
 		}
 	}
 
-	void habilitar() {
-		txtCodigo.setEnabled(true);
-		txtApellido.setEnabled(false);
-		btnGuardar.setEnabled(false);
-		btnCancelar.setEnabled(false);
-
-		btnAgregar.setEnabled(true);
-		btnConsultar.setEnabled(true);
-		btnEditar.setEnabled(true);
-		btnEliminar.setEnabled(true);
-		btnListar.setEnabled(true);
-	}
+	// Inicio: Eventos de los botones
 
 	protected void btnAgregarActionPerformed(ActionEvent arg0) {
-		txtCodigo.setEnabled(false);
-		txtApellido.setEnabled(true);
-		txtNombre.setEnabled(true);
-		txtTelefono.setEnabled(true);
-		cboEstado.setEnabled(true);
-		btnGuardar.setEnabled(true);
-		btnCancelar.setEnabled(true);
-
-		btnAgregar.setEnabled(false);
-		btnConsultar.setEnabled(false);
-		btnEditar.setEnabled(false);
-		btnEliminar.setEnabled(false);
-		btnListar.setEnabled(false);
+		habilitar(true);
 
 		accion = ACCION_AGREGAR;
 		txtCodigo.setText("" + controlador.generarCodigo());
 	}
 
 	protected void btnEditarActionPerformed(ActionEvent arg0) {
-		txtCodigo.setEnabled(false);
-		txtApellido.setEnabled(true);
-		txtNombre.setEnabled(true);
-		txtTelefono.setEnabled(true);
-		cboEstado.setEnabled(true);
-		btnGuardar.setEnabled(true);
-		btnCancelar.setEnabled(true);
-
-		btnAgregar.setEnabled(false);
-		btnConsultar.setEnabled(false);
-		btnEditar.setEnabled(false);
-		btnEliminar.setEnabled(false);
-		btnListar.setEnabled(false);
+		habilitar(true);
 
 		accion = ACCION_EDITAR;
 	}
 
-	protected void btnGuardarActionPerformed(ActionEvent arg0) {
-		txtCodigo.setEnabled(true);
-		txtApellido.setEnabled(false);
-		txtNombre.setEnabled(false);
-		txtTelefono.setEnabled(false);
-		cboEstado.setEnabled(false);
-		btnGuardar.setEnabled(false);
-		btnCancelar.setEnabled(false);
+	protected void btnEliminarActionPerformed(ActionEvent e) {
+		eliminar();
+	}
 
-		btnAgregar.setEnabled(true);
-		btnConsultar.setEnabled(true);
-		btnEditar.setEnabled(true);
-		btnEliminar.setEnabled(true);
-		btnListar.setEnabled(true);
+	protected void btnGuardarActionPerformed(ActionEvent arg0) {
+		habilitar(false);
 
 		switch (accion) {
 		case ACCION_AGREGAR:
@@ -323,111 +285,204 @@ public class FrmCliente extends JFrame implements ActionListener {
 	}
 
 	protected void btnCancelarActionPerformed(ActionEvent arg0) {
-		txtCodigo.setEnabled(true);
-		txtApellido.setEnabled(false);
-		txtNombre.setEnabled(false);
-		txtTelefono.setEnabled(false);
-		cboEstado.setEnabled(false);
-		btnGuardar.setEnabled(false);
-		btnCancelar.setEnabled(false);
-
-		btnAgregar.setEnabled(true);
-		btnConsultar.setEnabled(true);
-		btnEditar.setEnabled(true);
-		btnEliminar.setEnabled(true);
-		btnListar.setEnabled(true);
+		habilitar(false);
 	}
 
-	// ---------------------------------------------------------
+	protected void btnConsultarActionPerformed(ActionEvent e) {
+		consultar();
+	}
+
+	protected void btnListarActionPerformed(ActionEvent e) {
+		listar();
+	}
+
+	// Fin: Eventos de los botones
+
+	// Inicio: Métodos de lectura de datos
+
+	/**
+	 * Obtiene el código
+	 * 
+	 * @return código de cliente
+	 */
 	int getCodigo() {
 		return Integer.parseInt(txtCodigo.getText());
 	}
 
-	// ---------------------------------------------------------
+	/**
+	 * Obtiene el apellido del cliente
+	 * 
+	 * @return apellido
+	 */
 	String getApellido() {
 		return txtApellido.getText();
 	}
 
-	// ---------------------------------------------------------
+	/**
+	 * Obtiene el nombre del cliente
+	 * 
+	 * @return nombre
+	 */
 	String getNombre() {
 		return txtNombre.getText();
 	}
 
+	/**
+	 * Obtiene el teléfono del cliente
+	 * 
+	 * @return teléfono
+	 */
 	String getTelefono() {
 		return txtTelefono.getText();
 	}
 
-	// ---------------------------------------------------------
+	/**
+	 * Obtiene el estado del cliente
+	 * 
+	 * @return estado
+	 */
 	int getEstado() {
 		return cboEstado.getSelectedIndex();
 	}
 
-	// ---------------------------------------------------------
-	void mensaje(String m) {
-		JOptionPane.showMessageDialog(this, m);
-	}
+	// Fin: Métodos de lectura de datos
 
-	// Ingresa un celular evitando que el numero se repita
+	// Inicio: Métodos del mantenimiento
+
+	/**
+	 * Ingresa un cliente evitando que el código se repita
+	 */
 	void ingresar() {
 		Cliente obj = controlador.buscar(getCodigo());
 		if (obj != null) {
-			mensaje("El numero de habitación ya existe...");
+			mensaje("El código de cliente ya existe.");
 		} else {
 			obj = new Cliente(getCodigo(), getApellido(), getNombre(),
 					getTelefono(), getEstado());
 			controlador.adicionar(obj);
+			controlador.grabar();
 			borrar();
 			listar();
 			mensaje("Se registró el cliente");
 		}
 	}
 
+	/**
+	 * Modifica los datos de un cliente
+	 */
 	void modificar() {
 		Cliente obj = controlador.buscar(getCodigo());
 		if (obj == null) {
-			mensaje("No existe cliente con ese codigo");
+			mensaje("No existe cliente con ese código");
 		} else {
 			obj = new Cliente(getCodigo(), getApellido(), getNombre(),
 					getTelefono(), getEstado());
 			controlador.modificar(obj);
+			controlador.grabar();
 			borrar();
 			listar();
-			mensaje("Se actualizó el cliente");
+			mensaje("Se actualizaron los datos del cliente");
 		}
 	}
 
+	/**
+	 * Elimina un cliente por el código
+	 */
 	void eliminar() {
-
 		Cliente obj = controlador.buscar(getCodigo());
 		if (obj != null) {
-			controlador.eliminar(obj);
-			listar();
-		} else
-			mensaje("No existe el codigo ingresado");
-
+			if (JOptionPane.showConfirmDialog(this,
+					"Se eliminará el cliente. ¿Desea continuar?",
+					"Confirmación", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION) {
+				controlador.eliminar(obj);
+				controlador.grabar();
+				borrar();
+				listar();
+			}
+		} else {
+			mensaje("No existe cliente con ese código");
+		}
 	}
 
-	// Muestra el listado solicitado
+	/**
+	 * Consulta los datos de un cliente por su código
+	 */
+	private void consultar() {
+		Cliente obj = null;
+		obj = controlador.buscar(getCodigo());
+		if (obj == null) {
+			mensaje("No existe cliente con ese código");
+		} else {
+			mostrarDatosCliente(obj);
+		}
+	}
+
+	/**
+	 * Lista todas los clientes
+	 */
 	void listar() {
 		if (controlador.tamaño() > 0) {
-			txtS.setText("");
-			imprimir("Código\tApellidos\tNombre\tTeléfono\tEstado");
+			DefaultTableModel model = (DefaultTableModel) table.getModel();
+			model.getDataVector().clear();
+
 			for (int i = 0; i < controlador.tamaño(); i++) {
 				Cliente x = controlador.obtener(i);
-				imprimir(x.getCodigo() + "\t" + x.getApellido() + "\t"
-						+ x.getNombre() + "\t" + x.getTelefono() + "\t"
-						+ x.getNombreEstado());
+				Object row[] = { x.getCodigo(), x.getApellido(), x.getNombre(),
+						x.getTelefono(), x.getNombreEstado() };
+				model.addRow(row);
 			}
-			imprimir("");
-		} else
-			imprimir("No hay registros...");
-
+			borrar();
+		}
 	}
 
-	void imprimir(String s) {
-		txtS.append(s + "\n");
+	// Fin: Métodos del mantenimiento
+
+	// Inicio: Métodos adicionales
+
+	/**
+	 * @return Única instancia del formulario
+	 */
+	public static FrmCliente getInstance() {
+		if (instancia == null)
+			instancia = new FrmCliente();
+		return instancia;
 	}
 
+	/**
+	 * Muestra un mensaje
+	 * 
+	 * @param m
+	 */
+	void mensaje(String m) {
+		JOptionPane.showMessageDialog(this, m);
+	}
+
+	/**
+	 * Metodo que habilita o inhabilita los controles
+	 * 
+	 * @param valor
+	 *            boolean que indica que se debe habilitar
+	 */
+	void habilitar(boolean valor) {
+		txtApellido.setEnabled(valor);
+		txtNombre.setEnabled(valor);
+		txtTelefono.setEnabled(valor);
+		cboEstado.setEnabled(valor);
+		btnGuardar.setEnabled(valor);
+		btnCancelar.setEnabled(valor);
+
+		txtCodigo.setEnabled(!valor);
+		btnAgregar.setEnabled(!valor);
+		btnConsultar.setEnabled(!valor);
+		btnEditar.setEnabled(!valor);
+		btnEliminar.setEnabled(!valor);
+		btnListar.setEnabled(!valor);
+		table.setEnabled(!valor);
+	}
+
+	/**
+	 * Borra los datos
+	 */
 	void borrar() {
 		txtCodigo.setText("");
 		txtApellido.setText("");
@@ -436,21 +491,64 @@ public class FrmCliente extends JFrame implements ActionListener {
 		cboEstado.setSelectedIndex(0);
 	}
 
-	protected void btnConsultarActionPerformed(ActionEvent arg0) {
-		Cliente obj = null;
-		obj = controlador.buscar(getCodigo());
-		if (obj == null) {
-			mensaje("El codigo no existe...");
-		} else {
-			txtCodigo.setText("" + obj.getCodigo());
-			txtApellido.setText(obj.getApellido());
-			txtNombre.setText(obj.getNombre());
-			txtTelefono.setText(obj.getTelefono());
-			cboEstado.setSelectedIndex(obj.getEstado());
+	/**
+	 * Muestra los datos de un cliente en los controles
+	 * 
+	 * @param obj
+	 */
+	private void mostrarDatosCliente(Cliente obj) {
+		txtCodigo.setText("" + obj.getCodigo());
+		txtApellido.setText(obj.getApellido());
+		txtNombre.setText(obj.getNombre());
+		txtTelefono.setText(obj.getTelefono());
+		cboEstado.setSelectedIndex(obj.getEstado());
+	}
+
+	// Fin: Métodos adicionales
+
+	// Inicio: Eventos
+
+	public void mouseClicked(MouseEvent e) {
+		if (e.getSource() == table) {
+			tableMouseClicked(e);
 		}
 	}
 
-	protected void btnEliminarActionPerformed(ActionEvent arg0) {
-		eliminar();
+	public void mouseEntered(MouseEvent e) {
+	}
+
+	public void mouseExited(MouseEvent e) {
+	}
+
+	public void mousePressed(MouseEvent e) {
+	}
+
+	public void mouseReleased(MouseEvent e) {
+	}
+
+	protected void tableMouseClicked(MouseEvent e) {
+		Cliente obj = controlador.obtener(table.convertRowIndexToModel(table
+				.getSelectedRow()));
+		if (obj != null)
+			mostrarDatosCliente(obj);
+	}
+
+	public void keyPressed(KeyEvent arg0) {
+	}
+
+	public void keyReleased(KeyEvent arg0) {
+		if (arg0.getSource() == table) {
+			tableKeyReleased(arg0);
+		}
+	}
+
+	public void keyTyped(KeyEvent arg0) {
+	}
+
+	protected void tableKeyReleased(KeyEvent arg0) {
+		Cliente obj = controlador.obtener(table.convertRowIndexToModel(table
+				.getSelectedRow()));
+		if (obj != null)
+			mostrarDatosCliente(obj);
 	}
 }

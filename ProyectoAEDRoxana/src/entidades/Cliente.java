@@ -56,7 +56,7 @@ public class Cliente {
 	}
 	
 	public String getNombreEstado(){
-		if(this.estado == 0)
+		if(this.estado == 1)
 			return "Activo";
 		else
 			return "Inactivo";

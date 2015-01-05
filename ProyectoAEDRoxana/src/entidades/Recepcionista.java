@@ -7,7 +7,8 @@ public class Recepcionista {
 	public String nombre;
 	public String telefono;
 
-	public Recepcionista(int codigo, String apellido, String nombre, String telefono, int estado) {
+	public Recepcionista(int codigo, String apellido, String nombre,
+			String telefono, int estado) {
 		this.codigo = codigo;
 		this.estado = estado;
 		this.apellido = apellido;
@@ -55,4 +56,10 @@ public class Recepcionista {
 		this.telefono = telefono;
 	}
 
+	public String getNombreEstado() {
+		if (this.estado == 1)
+			return "Activo";
+		else
+			return "Inactivo";
+	}
 }

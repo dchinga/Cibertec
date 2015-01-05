@@ -1,0 +1,1000 @@
+1;Williams King;Willie;+53 535 851 456;1
+2;Bell Barnes;Daniel;+34 644 450 070;1
+3;Henry Morales;Tina;+29 645 082 313;1
+4;Pierce Banks;Willie;+89 719 812 510;1
+5;Porter Gray;Carol;+31 245 704 519;1
+6;Schmidt Lawson;Aaron;+83 329 279 411;1
+7;Williams Peterson;Donna;+90 563 073 370;1
+8;Boyd Day;Mark;+11 559 270 627;1
+9;Franklin Jenkins;Joseph;+31 027 522 354;1
+10;Burton Peters;Victor;+97 079 417 596;1
+11;Hall Collins;Peter;+62 627 906 888;1
+12;Coleman Ramirez;Nancy;+58 394 422 472;1
+13;James Murray;Carlos;+18 789 988 584;1
+14;Mendoza Olson;Randy;+91 980 722 059;1
+15;Parker Hanson;Virginia;+57 743 037 477;1
+16;Myers Armstrong;Stephanie;+33 183 151 653;1
+17;Butler Wheeler;Ann;+39 239 099 298;1
+18;Robinson Jacobs;Tammy;+47 403 905 935;1
+19;Mccoy Lopez;Jacqueline;-;1
+20;Duncan Wallace;Steven;+18 145 372 729;1
+21;Palmer Dixon;Laura;+25 838 289 873;1
+22;Frazier King;Mary;+63 449 527 419;1
+23;Collins Parker;Angela;-;1
+24;Vasquez Palmer;Denise;+82 494 198 075;1
+25;Ross Duncan;Doris;+29 009 631 527;1
+26;Andrews Murphy;Ralph;+60 948 091 137;1
+27;Riley Rodriguez;Doris;+59 035 978 047;1
+28;Hall Lynch;Raymond;+37 231 067 192;1
+29;Castillo Dean;Randy;+04 755 473 299;1
+30;Henry Kim;Ronald;+66 821 522 746;1
+31;Cook Walker;Jennifer;+84 825 456 944;0
+32;Mendoza Lopez;Andrea;+72 693 368 612;1
+33;Evans Burke;Melissa;+38 502 993 709;1
+34;Hart Welch;Jason;+53 840 271 408;1
+35;Sullivan Burns;Anthony;+97 613 193 295;1
+36;Berry Ryan;Susan;+80 254 990 490;1
+37;Butler Reyes;Daniel;+93 938 811 904;1
+38;Coleman Perkins;Carolyn;-;1
+39;Cooper Murray;Jacqueline;+34 721 183 499;1
+40;Sanders Chavez;Brenda;+58 173 290 310;1
+41;Roberts Bailey;Sharon;+01 503 194 219;1
+42;Garrett Sanders;Andrew;-;1
+43;Perez Nguyen;Phillip;+13 593 493 895;1
+44;Williamson Bryant;Douglas;+45 612 937 615;1
+45;Hudson Castillo;Rose;+42 999 882 679;1
+46;Fields Howell;Arthur;+83 294 168 213;1
+47;Fox James;Randy;+63 868 023 372;1
+48;Mendoza Gonzalez;Phillip;+34 643 446 549;1
+49;Garrett Ray;Jason;+63 400 850 111;1
+50;Harris Adams;Jesse;+62 939 520 525;1
+51;Burns Fowler;Brenda;+96 306 821 491;1
+52;Simmons Webb;Ernest;+62 496 209 633;1
+53;Ramirez Cook;Jerry;+50 985 632 719;1
+54;Bryant Russell;Nancy;+44 985 657 506;1
+55;Castillo Tucker;Cynthia;-;1
+56;Pierce Andrews;Michael;+04 949 763 649;1
+57;Green Riley;Ryan;-;1
+58;Arnold Baker;Billy;+85 360 688 753;1
+59;Harrison Mccoy;Michelle;+24 880 230 775;1
+60;Williams Wallace;Karen;+04 268 469 833;1
+61;Fernandez Powell;Helen;+86 745 976 419;1
+62;Gordon Bowman;Jerry;+43 298 199 826;1
+63;Murray Perry;Betty;+07 065 111 068;1
+64;Chavez Daniels;Joyce;+61 386 406 520;1
+65;Cruz Stewart;Benjamin;+36 880 660 474;1
+66;West Hudson;Henry;+25 522 298 949;1
+67;Elliott Lee;Patrick;+49 161 706 472;1
+68;Allen Hill;Justin;+62 182 940 508;0
+69;Gardner Watson;Jerry;+49 344 311 490;1
+70;Dunn Crawford;Maria;+70 048 698 388;1
+71;Jenkins Evans;Gloria;+78 926 085 501;1
+72;Freeman Ray;Gloria;-;1
+73;Sanders Walker;Debra;+28 982 576 534;1
+74;Hudson Gutierrez;Samuel;+25 969 322 486;1
+75;Lewis Mcdonald;Patricia;+96 221 555 721;1
+76;Fisher Austin;Rose;+18 936 801 976;0
+77;Torres Thompson;Howard;+64 856 576 748;1
+78;Wood Lopez;Janice;+47 272 258 758;1
+79;Gray Jacobs;Benjamin;+84 190 994 423;1
+80;Fowler Gutierrez;Wanda;+72 822 036 602;1
+81;Simmons Thomas;Carl;+65 802 325 842;1
+82;Bowman Robertson;Albert;+72 798 835 731;1
+83;Hill Gomez;Roy;+35 128 820 258;1
+84;Collins Gray;Sandra;+15 845 210 015;1
+85;Russell Johnston;Maria;+38 342 997 995;1
+86;Campbell Fuller;Susan;+74 911 091 597;1
+87;Murphy Peterson;James;+01 262 175 267;1
+88;Alexander Stone;Linda;-;1
+89;Chapman Holmes;Lisa;+10 674 759 941;1
+90;Gonzalez Garza;Dorothy;+11 931 506 691;1
+91;Owens Roberts;Henry;+64 332 273 388;1
+92;Hamilton Hart;Julie;+75 936 365 255;1
+93;Rogers Fox;Stephanie;+97 095 871 036;1
+94;Fuller Campbell;Shirley;+17 768 473 236;1
+95;Grant Knight;Steve;+56 351 143 663;1
+96;Nguyen Reyes;Lori;+46 065 908 066;1
+97;Carter Johnson;Jeremy;+52 392 633 284;1
+98;Bowman Taylor;Richard;+69 577 406 937;1
+99;Larson Greene;Shirley;+94 002 410 901;1
+100;Torres Gonzalez;Ronald;+23 439 299 353;1
+101;Hughes Matthews;Thomas;+42 768 563 920;1
+102;Bennett Arnold;Ronald;+78 268 558 941;1
+103;Turner Knight;Evelyn;+38 953 882 711;1
+104;Vasquez Holmes;Marilyn;+30 291 487 779;1
+105;Nelson Reyes;Gerald;+63 323 504 083;1
+106;Banks Reid;Kathy;+44 714 378 635;1
+107;Williams Carpenter;Christina;-;1
+108;Kennedy Thompson;Joshua;+26 454 872 393;1
+109;Murphy Larson;Thomas;-;1
+110;Hanson Gonzales;Gary;+02 790 545 238;1
+111;Brown Fowler;Brenda;+76 944 101 678;1
+112;Perez Reed;Randy;+54 233 789 499;1
+113;Burke Rivera;Chris;+68 734 752 863;0
+114;Frazier Stanley;Mary;+56 646 151 285;1
+115;Willis Palmer;Mildred;+53 934 518 095;1
+116;Morgan Cruz;Ralph;+99 252 164 495;1
+117;Stone Chavez;Carol;+93 381 367 580;1
+118;Vasquez Johnston;Anne;+90 424 374 097;1
+119;Simmons Gutierrez;Patrick;+01 424 275 125;1
+120;Washington Anderson;Amanda;+23 777 082 975;1
+121;Mitchell Harvey;Frances;+04 094 510 678;1
+122;Cole Boyd;Anna;+44 595 472 324;1
+123;Olson Hart;Kathleen;+78 742 509 403;1
+124;Lopez Crawford;Richard;-;1
+125;Gray Parker;Fred;+99 247 868 369;1
+126;Peterson Howard;Rose;+83 744 629 446;1
+127;Greene Webb;Mildred;+93 088 375 071;1
+128;Moreno Lee;Jeffrey;+03 894 109 202;1
+129;Walker Davis;Lois;+98 655 376 140;1
+130;Hanson Kennedy;Joan;+87 903 384 461;1
+131;Griffin Taylor;Nicole;+24 162 775 410;1
+132;Gutierrez Fernandez;Emily;+95 863 980 854;1
+133;Jacobs Reynolds;Carol;+90 364 803 665;1
+134;Fisher Welch;Jacqueline;+97 362 747 607;1
+135;Price Ramirez;Ashley;+01 538 408 607;1
+136;Olson Hudson;Joshua;+04 542 361 564;1
+137;Jenkins Rodriguez;Jerry;+08 084 965 787;1
+138;Robinson Ruiz;Sean;+26 025 001 087;1
+139;Allen Woods;Denise;+65 043 334 305;1
+140;Anderson Brown;Shirley;+22 061 886 379;0
+141;Marshall Day;Katherine;+48 700 518 263;1
+142;Moore Long;Rose;+78 995 347 357;0
+143;Garcia Day;Stephen;-;1
+144;Willis Vasquez;Judy;+57 828 083 348;1
+145;Williams Martin;Shawn;+14 532 764 229;1
+146;Evans Carroll;Roy;+33 472 692 493;1
+147;Walker Nguyen;Peter;+99 649 336 854;1
+148;Perkins Hill;Diane;-;1
+149;Dixon Morales;Roger;+90 468 172 876;1
+150;Dunn Garcia;Andrea;+46 150 569 754;0
+151;Richards Banks;Albert;+80 484 130 966;1
+152;Daniels Scott;Clarence;+26 276 299 154;1
+153;Robertson Hill;Lois;+12 712 617 405;1
+154;Reid Burke;Gary;+45 535 260 343;0
+155;Murphy Miller;Wayne;+73 993 028 007;0
+156;Ramos Martinez;Ann;+04 476 532 464;1
+157;Marshall Foster;Jonathan;+86 189 361 054;1
+158;Reed Burke;Terry;+16 734 278 349;1
+159;Garcia Cook;Paula;+16 551 287 676;1
+160;Jackson Oliver;Nancy;+01 245 490 991;1
+161;Lee Nichols;Ernest;+67 665 594 004;1
+162;Wells Weaver;Jack;+07 290 718 836;1
+163;Cook Diaz;Rose;+66 772 105 177;1
+164;Wilson Carpenter;Richard;+81 318 511 022;1
+165;Campbell Duncan;Ernest;+31 524 202 484;1
+166;Gibson Crawford;Todd;+22 742 455 914;1
+167;Scott Bryant;Joe;+33 890 541 146;1
+168;Willis Ruiz;Judy;+24 059 666 615;1
+169;Johnson Collins;Janice;+62 018 824 128;1
+170;Ellis Alexander;Ann;+40 489 028 130;1
+171;Williams Little;Rachel;+39 708 790 856;1
+172;Allen Bryant;Thomas;-;1
+173;Clark Lawrence;Robert;+63 240 844 473;1
+174;Hernandez Hudson;Willie;+96 093 081 145;1
+175;Carroll Moore;Stephen;+86 277 130 652;1
+176;Long Turner;Margaret;+60 721 990 570;1
+177;Bishop Gonzales;Nicholas;-;1
+178;Carpenter Williamson;Maria;+38 678 365 887;1
+179;Thomas Parker;Wanda;+77 525 883 373;1
+180;Perkins Shaw;Harold;-;1
+181;Collins Ramirez;Katherine;+28 635 575 518;1
+182;Lynch Cooper;Patrick;+93 253 856 896;1
+183;Daniels Oliver;Jack;+07 960 507 496;1
+184;Anderson Boyd;Shawn;+96 735 153 665;1
+185;Jacobs Weaver;Roger;+42 984 275 467;1
+186;King Reynolds;Amy;+47 808 426 279;1
+187;Adams Alvarez;Phillip;+23 952 142 035;1
+188;Wright Perez;William;+84 871 928 068;1
+189;Barnes Burton;Janet;+02 870 279 492;1
+190;Ryan Smith;Elizabeth;+52 225 332 443;1
+191;Phillips Stone;Marie;+50 185 780 718;1
+192;Turner Reid;Jane;+34 402 509 762;1
+193;Thompson Day;Benjamin;+21 539 354 435;1
+194;Bishop Arnold;Janice;+27 480 084 644;1
+195;Wilson Ruiz;Shawn;+61 881 931 564;1
+196;Bishop Williams;Kathryn;+53 225 170 082;1
+197;Cruz Dixon;Jimmy;+56 264 985 525;1
+198;Owens Stevens;Gregory;+79 686 896 922;1
+199;Webb Watkins;Brandon;+14 616 306 286;1
+200;Turner Spencer;Adam;+11 181 974 156;1
+201;Owens Spencer;Richard;+75 387 791 656;1
+202;Rivera Gutierrez;Joan;+02 943 018 986;1
+203;Reed Hansen;Cynthia;+12 063 075 337;1
+204;Turner Kennedy;Martha;+69 125 189 512;1
+205;Baker Mason;Raymond;+82 601 384 173;1
+206;Harper Peters;Earl;+18 136 458 482;1
+207;Tucker Ray;Norma;+64 412 684 627;1
+208;Romero Carr;Doris;+79 778 151 173;1
+209;Jackson Taylor;Alice;+10 447 634 439;1
+210;Wilson Moreno;Angela;+59 288 178 239;1
+211;Hunter Bell;Kevin;+71 008 090 155;0
+212;Foster Davis;Paul;+86 987 703 364;1
+213;Carr Thompson;Jesse;+15 371 852 089;1
+214;Frazier Anderson;Janice;+95 105 731 558;1
+215;Young Ford;Jason;+79 547 580 121;1
+216;Ryan Sanders;Adam;+79 630 527 145;1
+217;Burton Dixon;Julie;+42 176 334 363;1
+218;Frazier Gardner;Howard;+49 261 893 463;1
+219;Lane Riley;Lillian;+43 445 268 603;1
+220;Sullivan Stevens;Jennifer;+07 806 217 982;1
+221;Stephens Matthews;Catherine;+37 709 739 650;0
+222;Lynch Morrison;Jerry;+45 962 061 967;1
+223;Alexander Baker;Sarah;+06 950 065 464;1
+224;Robinson Coleman;Martin;+58 717 399 645;1
+225;Brooks Reyes;Jeremy;-;1
+226;Gonzalez White;Bruce;+44 713 526 156;1
+227;Kennedy Thompson;Bonnie;+55 687 679 693;1
+228;Gordon Jenkins;Maria;+30 560 460 109;1
+229;Gordon King;Jessica;+88 307 895 119;1
+230;Robinson Burns;Clarence;+09 895 063 384;1
+231;Green Allen;Emily;+54 244 300 848;1
+232;Woods Gray;George;+50 022 100 418;1
+233;Lopez Turner;Ashley;+45 860 672 030;1
+234;Hall Ramirez;Kathryn;+53 244 718 450;1
+235;Reyes Campbell;Fred;+52 179 547 531;1
+236;Mills Fox;Howard;+84 680 634 904;1
+237;Porter Bennett;Jennifer;+97 236 279 118;1
+238;Armstrong Gilbert;Irene;+46 917 973 270;1
+239;Gonzalez Owens;Timothy;+57 820 551 111;1
+240;Torres Pierce;Joyce;+21 830 287 379;1
+241;Crawford Rivera;Ralph;+50 929 445 155;1
+242;Dixon Austin;Judy;+73 435 527 313;1
+243;Andrews Franklin;James;+07 626 604 720;1
+244;Thompson Mills;Donna;+85 432 478 449;1
+245;Freeman Duncan;Nicole;+99 076 311 310;1
+246;Kelly Washington;Kelly;+42 565 258 508;1
+247;Hawkins Ferguson;Nancy;+75 189 518 667;1
+248;Moore Davis;Teresa;+67 581 834 252;1
+249;West Duncan;Keith;+48 253 996 817;1
+250;Garcia Gilbert;Patrick;+91 054 567 876;1
+251;Torres Collins;Donald;+08 880 202 680;1
+252;Johnson Weaver;Ryan;+63 405 449 433;1
+253;Perry Jordan;Deborah;+88 903 687 386;1
+254;Dean Morris;Kathleen;+40 259 756 719;1
+255;King Coleman;Jeremy;+90 415 368 609;1
+256;Garrett Reyes;Kelly;-;1
+257;Perry Montgomery;Carlos;+39 035 468 524;1
+258;Owens Murray;Lois;+77 645 454 798;1
+259;Johnston Campbell;Marilyn;+59 129 557 727;1
+260;Hernandez Wells;Beverly;+74 297 018 595;1
+261;Harper Lawson;William;+97 331 877 416;1
+262;West Harvey;Steve;+84 034 472 718;1
+263;Murphy Larson;Jennifer;+21 832 565 781;1
+264;Sims Spencer;Jane;+27 142 389 573;1
+265;Martinez Reynolds;Paula;+88 821 034 662;1
+266;Bell Shaw;Annie;+41 174 158 691;1
+267;Torres Campbell;Diane;+29 805 097 836;1
+268;Wood West;Emily;+83 672 250 878;1
+269;Williams Gomez;Timothy;+04 801 065 662;1
+270;Morales Mcdonald;Andrew;-;1
+271;Foster Carr;Andrea;+30 319 834 043;1
+272;Franklin Owens;Keith;+16 898 148 287;1
+273;Clark Coleman;Eugene;+32 840 164 614;1
+274;Snyder Jordan;Patricia;-;1
+275;Crawford Gilbert;Keith;+85 741 562 847;1
+276;Hawkins Lane;Aaron;+05 989 023 079;1
+277;Dixon Hamilton;Arthur;+27 422 631 955;1
+278;Hall Moreno;Joyce;+62 116 714 392;1
+279;Arnold Mason;Peter;-;1
+280;Tucker Warren;Scott;+63 764 413 721;1
+281;Nelson Ruiz;Paula;+29 846 110 105;1
+282;Henry Carroll;Marie;+14 387 681 127;1
+283;Weaver Hunter;Maria;+31 134 618 446;0
+284;Mcdonald Fisher;Ronald;+64 070 721 703;1
+285;Brown Murray;Kimberly;+72 260 580 117;1
+286;Graham Medina;Donna;+95 319 639 067;1
+287;Lee Jenkins;Kimberly;+61 860 113 596;1
+288;Shaw Austin;Mildred;+99 418 402 057;1
+289;Burns Ray;Ryan;+25 170 214 476;1
+290;Jenkins Bennett;Ryan;+79 786 074 709;1
+291;Edwards Wallace;Fred;+16 267 997 848;1
+292;Reed Hamilton;Debra;+67 574 767 567;1
+293;Mccoy Turner;Arthur;+88 455 726 053;1
+294;Reyes Kelly;Barbara;-;1
+295;Ford Price;Christopher;+03 755 699 471;1
+296;Henry Willis;Benjamin;-;1
+297;Miller Gardner;Sean;+46 291 483 285;1
+298;Diaz Murray;Evelyn;+46 784 786 320;1
+299;Palmer Rivera;Chris;+38 814 892 506;1
+300;Reynolds Diaz;Doris;-;1
+301;Cole Franklin;Diana;+77 903 954 532;1
+302;Ruiz Webb;Eric;-;1
+303;Butler Butler;Brenda;+59 147 843 317;1
+304;Ryan Meyer;Keith;+06 297 836 381;1
+305;Richards Young;Eric;-;1
+306;Knight Bishop;Michelle;+81 826 148 273;1
+307;Reed Harris;Diana;+87 166 729 684;1
+308;Green Wilson;Gloria;+37 111 660 036;1
+309;Miller Andrews;David;+28 977 268 039;1
+310;Hawkins Collins;Ryan;+29 981 042 103;1
+311;Bailey Crawford;Bonnie;-;1
+312;Gutierrez Frazier;Susan;+50 931 089 220;1
+313;Torres Carroll;Lawrence;+77 163 278 281;1
+314;Gonzales Nguyen;Bobby;+56 356 643 674;0
+315;Mitchell Morales;Sara;-;1
+316;Gonzales Cook;Sean;+12 433 628 999;1
+317;Ray Fuller;Carol;+45 836 493 238;1
+318;Gutierrez Gibson;Joshua;+66 617 113 215;1
+319;Sanders Price;Billy;+20 371 782 338;1
+320;Woods Fowler;Aaron;+05 174 573 530;1
+321;Greene Greene;John;+08 446 690 083;1
+322;Edwards Smith;Phyllis;+41 962 325 783;1
+323;Sullivan Moreno;Debra;+55 072 088 011;1
+324;Nelson Walker;Diane;+43 988 935 836;1
+325;Marshall Russell;Jack;+63 728 925 349;1
+326;Jones Stanley;Andrea;+15 686 092 705;1
+327;Griffin Bishop;Susan;+72 699 207 310;1
+328;Gilbert Ray;Michelle;+56 378 918 617;1
+329;Greene Grant;Rachel;+44 697 439 847;1
+330;Chapman Gonzales;Paula;+83 150 061 393;1
+331;Reid Edwards;Virginia;+00 351 319 051;1
+332;Mason Lawson;Dorothy;-;1
+333;Hamilton Fox;Linda;+55 078 575 168;1
+334;Howard Allen;Irene;+77 299 052 338;1
+335;Simmons Weaver;Adam;+86 006 566 235;1
+336;King Murphy;Judith;+22 544 051 794;1
+337;Diaz Rice;Frank;+53 937 471 302;1
+338;Stevens Graham;Diana;+99 838 861 627;1
+339;Bowman Jackson;Nancy;+47 799 004 354;1
+340;Gonzalez Castillo;Christina;-;1
+341;Richardson Rivera;Sean;+27 587 343 966;1
+342;Cooper Bowman;Steven;+83 325 456 640;1
+343;Webb Mills;Carl;+89 992 712 214;1
+344;Russell Daniels;Jennifer;-;1
+345;Butler Brown;Susan;+29 630 350 236;1
+346;Patterson Tucker;Sharon;+85 697 433 828;1
+347;Perez Hall;Kathy;+89 767 205 295;1
+348;Schmidt Franklin;Jimmy;+92 189 320 062;1
+349;Wells Olson;George;+57 374 884 359;1
+350;Fuller Ortiz;Gloria;+14 301 392 469;1
+351;Richards Lee;Rachel;+08 888 563 978;1
+352;Roberts Meyer;Jimmy;+46 886 298 411;1
+353;Spencer Peterson;Wanda;+47 290 673 069;1
+354;Shaw Ryan;Samuel;+46 700 688 909;1
+355;Day Rice;Dorothy;+66 445 186 461;1
+356;Frazier Elliott;Jennifer;+20 201 453 247;1
+357;Gonzalez Arnold;Janice;+41 321 426 266;1
+358;Ryan Spencer;George;+54 863 906 620;1
+359;Gomez Allen;Jesse;+25 801 300 106;1
+360;Burton Moore;Nicholas;+35 988 883 922;1
+361;Grant Berry;Katherine;+54 010 444 029;1
+362;Webb Lawson;Louis;+89 095 990 128;1
+363;Burke Rodriguez;Peter;+31 057 852 979;1
+364;Kelly Wilson;Martha;-;1
+365;Sanchez James;Nancy;+20 931 060 840;1
+366;Fuller Howard;Alan;+54 810 285 247;1
+367;Freeman Johnston;Juan;+11 139 646 612;1
+368;Price Ellis;Harold;+20 471 674 358;1
+369;Stanley Bowman;Lawrence;+67 692 151 688;1
+370;Tucker Walker;Sarah;+81 135 510 420;1
+371;Willis Berry;Judy;+39 262 866 744;1
+372;Andrews Baker;Barbara;+45 735 621 323;1
+373;Hunter Mccoy;Patricia;+75 069 965 975;1
+374;Ruiz Matthews;Rachel;+04 287 183 781;1
+375;Ward James;Antonio;+83 065 498 909;1
+376;Marshall Franklin;Judith;-;1
+377;Daniels Boyd;Rose;+51 727 300 907;1
+378;Evans Price;Ashley;+28 250 977 656;1
+379;Henry Bell;Patrick;+55 516 807 525;1
+380;Hill Howard;Patrick;+65 632 239 830;1
+381;Fisher White;Judith;-;1
+382;Fisher Robertson;Stephanie;+14 062 739 125;1
+383;Lawrence Morales;Sara;+55 249 931 345;1
+384;Henry Burke;Mary;+14 681 959 705;1
+385;Fox Cruz;Willie;+80 478 924 374;1
+386;Harper Fisher;Martha;+78 075 471 428;1
+387;Kelley Ferguson;Jeremy;+50 330 988 866;1
+388;Nguyen Gutierrez;William;+59 029 092 018;1
+389;Murray Griffin;Michelle;+35 882 498 238;1
+390;Watkins Bell;Judy;+18 919 699 029;1
+391;Rice Hernandez;Doris;+63 932 158 769;1
+392;Howard Mccoy;Matthew;+55 104 926 718;1
+393;Schmidt Nichols;Sharon;+13 503 487 186;1
+394;Mills Mitchell;Anthony;+54 562 574 607;1
+395;Kennedy Thomas;Dorothy;+54 579 152 196;1
+396;Kelly Nguyen;Adam;+30 775 837 462;1
+397;Hicks Watson;Gregory;+21 150 705 917;1
+398;Berry Russell;Robert;+33 526 933 304;1
+399;Foster Lee;Carl;+25 091 600 370;1
+400;Cole Mcdonald;Jose;-;1
+401;Fields Riley;Benjamin;+06 973 546 508;1
+402;Lee Ferguson;Cheryl;+40 333 500 287;1
+403;Burton Webb;Lois;+51 375 413 766;1
+404;Fuller Simpson;David;+19 150 202 072;1
+405;Richardson Kennedy;Marie;+52 050 318 311;1
+406;Carter Shaw;Kenneth;+37 756 073 753;1
+407;Bennett Fisher;Laura;+50 407 067 351;1
+408;Parker Owens;Edward;+06 013 503 791;1
+409;Black Hall;Marilyn;+39 986 066 592;1
+410;Murray Gordon;Eric;+27 524 343 823;1
+411;Reed Young;Johnny;+49 216 619 677;1
+412;Griffin White;Todd;+54 335 597 651;1
+413;Fowler Kennedy;Ralph;+43 280 024 743;1
+414;Diaz Ferguson;Walter;+33 733 313 576;1
+415;Robertson Campbell;Earl;-;1
+416;Reed Ramos;Charles;+63 509 676 133;1
+417;Reyes Harris;Terry;+15 752 800 371;1
+418;Green Clark;Thomas;+88 614 024 165;1
+419;Thomas Berry;Edward;+16 895 529 689;1
+420;Ortiz Evans;Michelle;+20 466 866 325;1
+421;Lawrence Lawson;Cheryl;+21 236 036 582;1
+422;Rogers Riley;Michelle;+89 148 940 999;1
+423;Schmidt Reid;Kathy;+97 689 520 267;1
+424;Armstrong Mitchell;Maria;+06 001 537 198;1
+425;Cook Powell;Gary;+42 850 292 183;1
+426;Johnston Russell;James;+96 350 167 343;1
+427;Mccoy White;Marilyn;+52 276 590 089;1
+428;Turner Hicks;Jose;+93 547 607 047;1
+429;Welch Wagner;Brenda;+27 888 956 542;1
+430;Hughes Harper;Dorothy;+07 541 747 990;1
+431;Ramos Garza;Joe;+39 919 659 087;1
+432;Garcia Edwards;Arthur;-;1
+433;Hart Flores;Walter;+81 939 726 991;1
+434;Ellis Cunningham;Terry;+23 798 052 412;1
+435;Washington Henry;Martin;+47 058 247 347;1
+436;Reid Ramos;Diane;+67 166 158 847;1
+437;Hayes Adams;Janice;+93 417 167 616;1
+438;Johnson Willis;Richard;+30 239 390 515;1
+439;Hunt Tucker;Carl;+40 883 375 890;1
+440;Schmidt Taylor;Martin;+58 275 293 785;1
+441;Hart Lewis;Thomas;+20 961 634 292;1
+442;Perry Alvarez;Kimberly;+20 406 623 522;1
+443;Coleman Jacobs;Richard;+94 475 912 243;1
+444;Ray Hernandez;Amy;+75 437 100 346;1
+445;Banks Ramirez;Susan;+46 680 847 266;1
+446;Stephens Howard;Debra;+30 533 617 924;1
+447;Boyd Kelly;Joan;+78 201 520 636;1
+448;Payne Garza;William;+20 865 551 291;1
+449;Reid Allen;Frank;+62 578 102 716;1
+450;Hill Hansen;Cheryl;-;1
+451;Nelson Bailey;Paul;+01 845 592 076;1
+452;Shaw Torres;Jessica;+46 906 369 389;1
+453;Reyes Ross;Deborah;+43 144 766 215;1
+454;Gonzalez Collins;Louis;+18 370 998 232;1
+455;Snyder Black;Ernest;+12 354 869 532;1
+456;Spencer Jordan;Cheryl;+57 727 577 412;1
+457;Snyder Perry;Mildred;-;1
+458;Ramirez Andrews;Diana;+03 487 136 576;1
+459;Warren Mccoy;Patricia;+37 219 007 097;1
+460;Carr Fields;Paul;+01 197 750 442;1
+461;Bradley Anderson;Jose;-;1
+462;Castillo Olson;Scott;+10 614 005 602;1
+463;Garza Wheeler;Joseph;+40 437 619 486;1
+464;Dixon Ruiz;Christine;+61 784 921 340;1
+465;James Peters;Julie;-;1
+466;Kim Long;Ralph;+01 511 623 704;1
+467;Woods Reed;Howard;+33 670 276 782;1
+468;Cook Berry;Frank;+66 655 869 631;1
+469;Morgan Daniels;Benjamin;+66 673 544 169;1
+470;Duncan Lee;Mark;+27 968 507 390;1
+471;Fernandez Morrison;Jessica;+91 520 699 522;1
+472;Hill Armstrong;Ernest;-;1
+473;Duncan Roberts;Irene;+37 308 131 609;1
+474;Berry Thomas;Randy;+77 872 687 411;1
+475;Garcia Hunter;Irene;+20 067 546 421;1
+476;Bishop Long;Donna;-;1
+477;Bowman Williams;Dennis;+16 032 147 233;1
+478;Adams Palmer;Ruth;+60 770 754 605;1
+479;Washington Thomas;Kimberly;+28 089 119 854;1
+480;Warren Ray;Judy;+13 593 981 677;1
+481;Moore Miller;Ashley;+68 522 621 063;1
+482;White Banks;Jeffrey;+05 044 366 482;1
+483;Tucker Campbell;Elizabeth;+67 447 690 570;0
+484;Hayes Coleman;Terry;+84 139 068 572;1
+485;Gonzalez Welch;Eric;-;1
+486;Alvarez Anderson;Evelyn;+36 206 944 564;1
+487;Gibson Carter;Betty;+34 790 519 521;1
+488;Stewart Webb;Sharon;+74 240 254 681;1
+489;Brooks Dixon;Karen;+37 906 297 462;1
+490;Clark Sanders;Ronald;+31 408 500 282;1
+491;Hart Banks;Jerry;+87 496 448 426;1
+492;Wilson Crawford;Sarah;+25 153 929 155;1
+493;Reyes Holmes;Karen;+28 586 976 635;1
+494;Rogers Lewis;Eugene;+71 057 340 056;1
+495;Stone King;Bruce;+05 637 546 682;1
+496;Cook Hamilton;Bobby;+83 183 264 887;1
+497;Owens Washington;Beverly;+10 094 127 707;1
+498;Owens Ortiz;Tina;+60 970 484 082;1
+499;Morrison Kelly;Thomas;+14 979 299 874;1
+500;Bryant Carter;Tammy;+72 979 399 055;1
+501;Payne Bryant;Julie;+49 682 107 285;1
+502;Freeman Davis;Ralph;+03 201 294 461;1
+503;Ross Richardson;Christine;+48 219 868 218;1
+504;Mcdonald Morgan;Catherine;+70 889 634 892;1
+505;Sanders Cooper;Ruby;+24 223 822 758;1
+506;Greene Morgan;Steve;+15 939 240 469;1
+507;Banks Shaw;Jeremy;-;1
+508;Lopez Porter;Lois;+46 005 071 366;1
+509;Porter Lewis;Kelly;+13 483 370 493;0
+510;Nelson West;Ernest;+07 011 424 302;1
+511;Long Bryant;Kathleen;+48 834 294 314;1
+512;Stephens Gray;Christopher;+87 701 314 570;1
+513;Johnson Collins;Stephen;-;0
+514;Payne Bailey;Marilyn;+19 017 185 144;1
+515;Johnston Bradley;Michelle;+54 633 175 965;1
+516;Black Edwards;Christina;-;1
+517;Meyer Johnston;Cheryl;-;1
+518;Mendoza Peters;Virginia;+64 134 329 974;1
+519;Burns Hanson;Kelly;+89 911 049 573;1
+520;Gordon Black;Chris;+42 324 495 051;1
+521;Sims Shaw;Todd;+67 113 927 958;1
+522;Hunter Fernandez;Jimmy;+15 956 288 929;1
+523;Williamson Jenkins;Christina;+13 031 159 011;1
+524;Stone Reid;Terry;-;1
+525;Fields Grant;Nancy;+88 564 071 323;1
+526;Grant Franklin;Timothy;+95 452 064 857;1
+527;Allen Ramos;Steve;+78 925 704 108;1
+528;Hughes Torres;Samuel;+66 810 706 394;1
+529;Ford Gibson;Alice;+89 072 714 786;1
+530;Harrison Allen;Randy;+57 134 338 950;1
+531;Morris Graham;Jesse;+67 374 809 798;1
+532;Roberts Weaver;Janet;+08 299 934 069;1
+533;Harrison Anderson;Frances;+53 579 488 267;1
+534;Lewis Dean;Gerald;+15 382 241 238;0
+535;Peters Burns;Kevin;+37 608 290 429;1
+536;Coleman Rice;Sharon;+57 864 640 330;1
+537;Lewis Peterson;Cheryl;+87 334 647 482;1
+538;Lee Gardner;John;+90 194 030 970;1
+539;Daniels Ward;Bonnie;+71 739 809 561;1
+540;Burton Lee;Antonio;+93 395 018 016;1
+541;Wright Castillo;Todd;-;1
+542;Woods Mason;Jeffrey;+24 667 509 820;1
+543;Wallace Hawkins;Debra;+56 441 827 002;0
+544;Webb Torres;Paula;-;1
+545;Rice Day;Jack;+31 710 346 105;1
+546;Price Robinson;Aaron;-;0
+547;Reed Greene;Lois;+31 820 342 269;1
+548;Wallace Powell;Janice;+49 840 192 425;1
+549;Reid Davis;Anthony;+07 815 710 934;0
+550;Marshall Stephens;Amy;+24 953 014 277;1
+551;Collins Sanders;Ruth;+71 596 801 352;1
+552;Carter Olson;Evelyn;+74 089 816 476;1
+553;Ramos Cruz;Nancy;+88 026 292 692;1
+554;Wright Wagner;Ann;+76 378 497 492;1
+555;Ray Sims;Ann;+37 700 330 257;1
+556;Fowler Bradley;Virginia;+53 274 305 212;0
+557;West Adams;Cheryl;-;1
+558;Larson Chavez;Donna;+62 446 763 427;1
+559;Gordon Owens;Joyce;-;1
+560;Crawford Turner;Steven;+33 607 671 549;0
+561;Young Roberts;Lori;+68 488 968 885;1
+562;Moreno Mendoza;Margaret;+03 724 177 101;1
+563;Sanchez Bailey;Jeremy;+83 890 753 621;1
+564;Mcdonald Rogers;Sara;+72 806 969 360;1
+565;Bishop Grant;David;+82 432 274 978;1
+566;Gray Long;Gary;+38 598 719 132;1
+567;White Nichols;Ashley;+58 082 217 721;1
+568;Richards Black;Justin;+09 357 348 613;1
+569;Cook Garcia;Gloria;-;1
+570;Hughes Vasquez;Jonathan;-;1
+571;Dean Harris;Frances;+63 266 210 498;1
+572;Reyes Myers;Randy;+96 549 262 766;1
+573;Ford Morrison;Keith;+83 717 540 349;1
+574;Fisher Lee;Joe;+56 389 778 884;1
+575;Chavez Jones;Kathy;+33 147 108 546;1
+576;Chapman Wells;Antonio;+90 570 947 854;1
+577;Oliver Austin;Marie;+63 918 182 718;1
+578;Davis Carroll;Bruce;+05 014 566 848;1
+579;George Smith;Ralph;+98 282 189 239;1
+580;Fernandez Willis;Richard;+14 919 772 415;1
+581;Hawkins Morris;Angela;+53 719 876 127;1
+582;Stewart Ellis;Gregory;+62 626 314 880;1
+583;Powell Sullivan;Wayne;+81 538 237 812;1
+584;Duncan Boyd;Jerry;+13 569 951 467;1
+585;Jones Russell;Michelle;-;1
+586;Jackson Davis;Alan;+25 990 749 501;1
+587;Evans Meyer;Gerald;+34 692 448 055;1
+588;Gordon Allen;Paula;+25 905 081 713;1
+589;Dixon Reid;Brian;+86 438 618 603;1
+590;Fox Wallace;Robin;+46 608 991 143;1
+591;Franklin Garza;Ralph;-;1
+592;Collins Wheeler;Juan;+39 433 391 155;1
+593;Harvey Young;Jennifer;+87 116 785 472;1
+594;Torres Washington;Jose;-;1
+595;Gonzalez Williams;Jeffrey;-;1
+596;Lawrence Hart;Frank;+09 099 666 890;1
+597;Hayes Berry;Peter;-;1
+598;Thompson Ortiz;Lisa;+95 162 278 610;1
+599;Hayes Rogers;Jason;+92 829 565 901;1
+600;Flores Nichols;David;+79 734 384 482;1
+601;Turner Allen;Theresa;+18 772 957 494;1
+602;Daniels Phillips;Willie;+85 198 856 564;1
+603;Fuller Rogers;Michelle;+59 367 886 539;0
+604;Clark Johnston;Betty;+20 128 937 572;1
+605;Andrews Day;Mary;+18 220 766 237;1
+606;Lynch Rodriguez;Bruce;+81 901 937 547;1
+607;Simmons Gilbert;Albert;+56 140 807 954;1
+608;King Reed;Ernest;+78 390 509 155;1
+609;Brooks Burke;Helen;+71 599 565 557;1
+610;Duncan Watkins;Debra;+93 936 953 393;1
+611;Garrett Daniels;Ashley;+34 038 422 657;1
+612;Harvey Gray;Walter;-;1
+613;Chapman Gonzalez;Paula;+43 293 454 585;1
+614;Ramirez Cook;Debra;+64 410 904 453;1
+615;Meyer Green;Michelle;+72 399 116 941;1
+616;Hart Baker;Joe;+47 920 443 486;1
+617;Morgan Freeman;Steve;+79 397 396 596;1
+618;Hansen Romero;Peter;+02 821 321 314;0
+619;Cole Howell;Louis;+49 740 539 744;1
+620;Vasquez King;Paula;+66 193 656 724;1
+621;Clark Mason;Aaron;+51 509 904 627;1
+622;Ross Sanchez;Diane;+09 589 426 655;1
+623;Martinez Jackson;Martin;+36 388 521 688;1
+624;Robinson Cooper;Marie;+12 349 006 052;1
+625;Cox Watkins;Raymond;+23 151 859 730;1
+626;Allen Kennedy;Anne;+86 981 276 358;1
+627;Fox Walker;Richard;-;1
+628;Oliver Dixon;Johnny;+44 833 887 285;1
+629;Alvarez Jones;Catherine;+58 365 248 948;1
+630;Riley Peterson;Charles;+58 860 552 655;1
+631;Burns Andrews;Debra;+06 051 120 488;1
+632;Burke Elliott;Nicholas;+07 586 653 615;1
+633;Payne Larson;Janet;+37 711 452 211;1
+634;Nguyen Carroll;Teresa;+08 001 709 438;1
+635;Matthews Gonzales;Howard;-;1
+636;Bradley Sullivan;Ashley;+82 962 528 183;1
+637;Cole Bowman;Norma;+88 163 680 336;1
+638;Chavez Hart;Robin;+93 993 911 452;1
+639;Sims Miller;Catherine;+54 484 576 235;0
+640;Schmidt Vasquez;Marie;+31 617 541 413;1
+641;Fowler Brooks;Judith;+48 087 262 801;1
+642;Perez Berry;Shirley;+30 305 870 460;1
+643;Lane Griffin;Jack;+45 449 430 994;1
+644;Robertson Russell;Patrick;+92 458 006 001;1
+645;Bryant Wilson;Jessica;-;1
+646;Campbell Bryant;Ralph;+02 048 984 125;1
+647;Reed Daniels;Wanda;+08 539 329 832;1
+648;Burns Jackson;Wanda;+26 536 845 659;1
+649;Perez Banks;Julia;-;1
+650;Fernandez Cunningham;Judith;+54 231 732 222;1
+651;Stanley Franklin;Anne;+40 607 533 079;1
+652;Harris Allen;Carl;+23 899 289 130;1
+653;Parker Nichols;Jean;+36 808 512 394;1
+654;Hamilton Lawson;Sarah;+18 909 536 389;0
+655;Weaver Jacobs;John;+13 094 040 766;1
+656;Snyder Thompson;Timothy;+27 741 481 431;1
+657;Harris Young;Heather;+05 631 737 815;1
+658;Cox Wallace;Kathryn;+77 452 558 558;1
+659;Hamilton Owens;Kelly;+89 984 905 969;1
+660;Austin Rice;Nicole;+39 237 273 576;1
+661;Lawson Lawrence;Robert;+80 520 998 915;1
+662;Stewart Sanchez;Fred;+48 215 978 932;1
+663;James Morgan;Irene;+53 873 272 441;1
+664;Chapman Tucker;Joshua;+65 338 186 305;1
+665;Nguyen Henry;Linda;+31 972 616 138;1
+666;Ramos Cox;Gary;+95 418 372 186;1
+667;Knight Hawkins;Julia;+60 413 509 045;1
+668;Bailey Powell;Tina;+59 577 335 756;1
+669;Fowler Wright;Nicholas;+17 982 931 269;1
+670;Morales Smith;Betty;+83 819 832 940;1
+671;Perez Mason;Andrew;+82 016 979 926;1
+672;Edwards Reed;Melissa;+69 972 553 630;1
+673;Sanchez Andrews;Donna;+87 704 197 024;0
+674;Gutierrez Howard;Kelly;+75 086 473 154;1
+675;Woods Phillips;Billy;-;1
+676;Wood Knight;Kimberly;-;1
+677;Crawford Johnson;Catherine;+95 267 135 275;1
+678;Lawrence Pierce;Todd;+24 505 174 260;1
+679;Harris Perez;Eugene;+20 915 149 178;1
+680;Walker Jones;Denise;+54 146 063 491;1
+681;Clark Owens;Carolyn;+25 095 282 507;1
+682;Scott Baker;Louis;+02 324 146 397;1
+683;Cox Montgomery;Albert;+04 601 240 909;1
+684;Adams Davis;Shirley;+65 168 792 932;1
+685;Peters Vasquez;Aaron;+24 592 465 038;1
+686;Knight Carroll;Randy;+82 795 008 047;1
+687;Dean Hunt;Sandra;+28 286 293 269;1
+688;Bell Jones;Edward;-;1
+689;Willis Sanchez;Willie;+17 748 028 033;1
+690;Price Edwards;Earl;+35 063 595 440;1
+691;Jenkins Kelly;Cynthia;+27 649 972 145;1
+692;Reynolds Boyd;Raymond;+43 971 320 082;1
+693;Spencer Robinson;Joyce;+22 538 890 980;1
+694;Elliott Stanley;Charles;+65 639 703 133;1
+695;Fuller Fuller;Andrew;+13 072 945 388;1
+696;Owens Stewart;Timothy;+64 970 561 978;1
+697;Marshall Daniels;Mildred;+43 540 357 954;1
+698;James Banks;Debra;+99 004 915 441;1
+699;Price Russell;Victor;+56 107 621 789;1
+700;Patterson Foster;Douglas;-;1
+701;Webb Knight;Timothy;+42 906 775 536;1
+702;James James;Catherine;+12 109 842 833;1
+703;Flores Hill;Louis;+38 116 463 541;1
+704;Ryan Bradley;Carolyn;+95 771 250 558;1
+705;Fuller Hawkins;Ann;+05 512 188 297;1
+706;Nichols Andrews;Paul;+44 081 301 426;1
+707;Kelley Porter;Peter;+08 030 795 519;1
+708;Marshall Hamilton;Jimmy;+35 126 527 174;1
+709;Anderson Hanson;Joyce;+81 327 038 972;1
+710;Gilbert Johnson;Paula;+11 024 213 634;1
+711;Stephens Bell;Roger;+91 999 550 395;1
+712;Stanley Snyder;Johnny;-;1
+713;Watkins Ramirez;Martha;+68 031 673 082;1
+714;Cox Andrews;Louise;+11 383 444 811;1
+715;Wagner Day;Paul;+13 626 144 693;1
+716;Sullivan Montgomery;Joyce;+73 313 070 976;1
+717;Stevens Riley;John;+31 329 234 879;1
+718;Meyer Rivera;Walter;+53 724 307 917;1
+719;Ford Hunt;Daniel;+27 540 408 679;1
+720;Bell Ortiz;Daniel;+20 334 817 877;1
+721;Davis Turner;Eugene;+24 565 953 371;1
+722;Warren Weaver;Ryan;+59 577 715 095;1
+723;Grant Turner;Kevin;+71 914 792 437;1
+724;Frazier Jenkins;Jose;-;1
+725;Andrews Elliott;Jack;+93 946 738 646;1
+726;Evans Montgomery;Julia;+79 356 026 360;1
+727;Murray Day;Amanda;+32 296 349 756;1
+728;Richardson Richardson;Amanda;+79 573 638 839;1
+729;Nichols Ward;Brenda;+37 450 267 478;1
+730;Baker Foster;Craig;+96 262 109 728;1
+731;Franklin Robertson;Howard;+35 301 889 516;1
+732;Harvey Larson;Nancy;+89 050 593 176;1
+733;Davis Cruz;Edward;+16 847 826 987;1
+734;Anderson Coleman;Helen;+65 621 079 079;1
+735;Perkins Garcia;Kelly;+86 896 079 412;1
+736;Mcdonald Ford;Jeffrey;+35 544 861 826;1
+737;Rodriguez Duncan;Jeremy;+25 078 492 236;1
+738;Harper Ortiz;William;+81 899 357 976;1
+739;Holmes White;Martha;+00 373 531 319;1
+740;Daniels Duncan;Amy;-;1
+741;Rose Ross;Lois;+53 123 850 230;1
+742;Gilbert Butler;Jose;+89 281 845 039;1
+743;Gonzales Wagner;Sarah;+85 901 579 928;1
+744;Frazier Rodriguez;William;+23 537 048 869;1
+745;Ferguson Hayes;Carl;+70 597 456 491;1
+746;Clark Jacobs;Matthew;+11 888 009 419;1
+747;Weaver Washington;Jack;+28 977 482 818;1
+748;Mills Robinson;Eugene;+00 589 664 331;0
+749;Franklin Knight;Sandra;+80 721 099 786;1
+750;Freeman Jacobs;Michelle;+90 656 712 312;1
+751;Weaver Vasquez;Joan;+73 389 777 453;1
+752;Thomas Kelly;Keith;+56 418 119 744;1
+753;Perkins Howard;Gary;+12 834 537 407;1
+754;Campbell Garcia;Andrea;+88 570 477 618;1
+755;Mendoza Murphy;Kathleen;+59 207 175 380;1
+756;George Torres;Rachel;+25 646 452 950;1
+757;Miller Robinson;Debra;+23 650 372 413;1
+758;Thomas Franklin;Patricia;+13 852 129 924;1
+759;Cooper Ellis;Thomas;+99 151 171 493;1
+760;Reed Fisher;Jennifer;+71 248 575 618;1
+761;Williams Alvarez;Jessica;+16 132 075 802;1
+762;Watkins Stevens;Douglas;+78 841 380 468;1
+763;Fisher Woods;Joshua;+05 350 437 651;1
+764;Bishop Patterson;Judy;+32 621 628 384;1
+765;Franklin Carter;Jacqueline;+92 070 647 539;1
+766;Welch Pierce;David;+88 209 932 630;1
+767;Owens Bennett;Phillip;+19 316 329 005;1
+768;Stevens Stewart;Ann;+11 451 233 116;1
+769;Robertson Jenkins;Willie;+86 312 826 826;0
+770;Sanchez Nelson;Betty;-;1
+771;Harris Watkins;Carl;+62 977 857 752;1
+772;Coleman Banks;Christina;+03 175 505 274;1
+773;Smith Hill;Cheryl;+19 041 184 264;1
+774;Gray Ellis;Maria;-;1
+775;Franklin Williams;John;+14 603 524 337;1
+776;Washington Matthews;Billy;-;1
+777;James Green;Randy;+07 769 705 853;0
+778;Evans Ross;Dorothy;-;1
+779;Mitchell Thompson;Cheryl;+77 267 656 191;1
+780;Garza Jackson;Ronald;+20 315 311 184;1
+781;Johnson Burton;Howard;+72 637 221 984;1
+782;Roberts Hawkins;Dennis;+38 364 111 274;1
+783;Myers Hamilton;Fred;+47 491 400 384;1
+784;Harper Smith;Roy;+10 040 364 838;1
+785;Burke Black;Lisa;+35 622 524 865;1
+786;George Garrett;Mark;+20 130 310 987;1
+787;Parker Scott;Douglas;-;1
+788;Wheeler Chavez;Sandra;-;1
+789;Crawford Peterson;Gary;-;0
+790;Lopez Greene;Ronald;+60 412 469 224;1
+791;Stanley Rogers;Wayne;+05 659 981 550;1
+792;Mcdonald Wheeler;Jose;+38 731 048 304;1
+793;Stewart Evans;Joshua;-;1
+794;Day Wood;Karen;+91 485 122 301;1
+795;Carter Franklin;Diana;-;1
+796;Burton Johnson;Scott;+47 475 906 833;1
+797;Spencer Romero;Chris;+96 029 447 316;1
+798;Wood Gomez;Doris;+45 691 660 721;1
+799;Williamson Hart;Phillip;+93 396 585 570;1
+800;King Sims;Jack;-;1
+801;Young Greene;Catherine;+10 794 842 000;1
+802;Porter Carr;Donald;-;1
+803;Hayes Young;Samuel;+16 732 621 757;1
+804;Barnes Hamilton;Dennis;+03 386 456 960;1
+805;Hill Reid;Arthur;+19 613 674 507;1
+806;Watson Wilson;Larry;+95 642 690 008;1
+807;Oliver Lee;Marilyn;+92 859 026 493;1
+808;Austin Martinez;Jerry;+80 267 280 943;1
+809;Parker Ward;Michelle;+51 830 559 186;1
+810;Hanson Wright;Ronald;+08 740 076 505;1
+811;Greene Owens;Timothy;+35 940 139 819;1
+812;Meyer Sanders;Gerald;+76 836 689 050;1
+813;Berry Boyd;Pamela;+45 758 541 638;1
+814;Rose Flores;Margaret;+15 148 858 390;1
+815;Young Mason;Donald;+79 639 161 687;1
+816;Thompson Carroll;Louise;+45 036 093 377;1
+817;Bell Knight;Wayne;+23 755 384 944;1
+818;Marshall Henderson;Gerald;+76 696 537 925;1
+819;Hansen Reed;Larry;+73 986 065 307;1
+820;Lane Oliver;Raymond;-;1
+821;Brown Price;Barbara;+21 346 244 228;1
+822;Crawford Daniels;Andrea;-;1
+823;West Young;Jose;+41 756 356 857;1
+824;Hayes Russell;Raymond;+66 984 013 259;1
+825;Castillo Foster;Marilyn;+75 302 055 610;1
+826;Kelly Dunn;Debra;+51 708 999 460;1
+827;Price Schmidt;Charles;+07 217 970 499;1
+828;Hayes Moreno;Julie;+75 536 041 647;1
+829;King Hawkins;Albert;+48 374 088 835;1
+830;Wood Willis;Michelle;+74 433 425 957;0
+831;Chapman Graham;Timothy;+94 681 419 332;1
+832;Hudson Dunn;Alice;+49 622 452 842;1
+833;Stewart Walker;Nicole;-;1
+834;Olson Smith;Kelly;+60 953 354 272;1
+835;Rose Bowman;Kathy;+75 940 311 286;1
+836;Lee Arnold;Amanda;+31 690 968 500;1
+837;Bryant Rogers;Teresa;+71 805 584 984;1
+838;Burke Barnes;Gloria;+52 378 619 188;1
+839;Cooper Anderson;Brenda;+54 395 035 283;1
+840;Flores Daniels;Robin;+83 592 265 859;1
+841;Green Gray;Alice;+64 649 888 881;1
+842;Welch Parker;Roger;+02 302 065 474;1
+843;Wright Long;Henry;+95 554 237 851;1
+844;Wright Williamson;Patricia;+84 282 792 568;1
+845;Burns Hall;Eugene;+99 127 816 837;1
+846;Jenkins Jordan;Albert;+91 077 436 636;1
+847;Harrison Johnston;Cynthia;+01 466 527 747;1
+848;Reynolds Snyder;Ernest;-;1
+849;Harper Williamson;Gary;+52 249 615 983;1
+850;Austin Moreno;Gloria;+50 922 431 432;1
+851;Wood Morris;Debra;+87 851 882 719;1
+852;Meyer Hansen;Gary;+61 968 688 956;1
+853;Hanson Hunt;Alan;+11 339 100 127;1
+854;Thompson Wells;Kevin;+26 271 674 230;1
+855;Stone Hawkins;Willie;-;1
+856;Patterson Montgomery;Willie;+38 309 396 834;1
+857;Lee White;Harry;+61 597 946 495;1
+858;Alvarez Nguyen;Timothy;+28 325 243 164;1
+859;West Martin;Carlos;+55 173 594 380;1
+860;Gonzalez King;Douglas;+34 389 142 952;1
+861;Gonzalez Sims;Keith;+66 423 199 375;1
+862;Martin Watson;Elizabeth;+36 932 621 524;1
+863;Thompson Bowman;Louise;-;1
+864;Little Ortiz;Sarah;+86 936 485 705;1
+865;Rivera Castillo;Tammy;+80 013 367 065;1
+866;Wheeler Castillo;Marie;+69 021 435 281;1
+867;Castillo Henderson;Jane;+69 509 566 984;1
+868;Hamilton Peterson;Linda;+59 717 752 960;1
+869;Price Henderson;Karen;+00 319 489 025;1
+870;Patterson Ellis;Lori;+69 121 026 641;1
+871;Fields Coleman;Judith;+52 180 074 256;1
+872;Bennett Kelly;Brenda;+37 318 217 839;1
+873;Robertson Howell;Sara;+87 524 806 744;1
+874;Warren Graham;Christine;-;1
+875;Myers Cruz;Sarah;+03 250 966 013;1
+876;Robinson Carroll;Maria;+65 463 428 913;1
+877;Peters Young;Johnny;+12 519 514 792;1
+878;Duncan Ford;Christine;+91 556 512 154;1
+879;Campbell Ruiz;Teresa;+40 333 246 321;1
+880;Wood Chavez;Aaron;+10 841 127 850;1
+881;Patterson Rodriguez;Denise;+95 097 183 179;1
+882;Peterson Pierce;Shawn;+77 358 565 721;1
+883;Kim Sanders;Norma;+75 954 609 841;1
+884;Washington Watkins;Richard;+42 663 505 870;1
+885;Gray Murray;Bruce;+92 553 597 020;1
+886;Peters Mccoy;Donald;-;1
+887;Garcia Knight;Beverly;+92 935 198 177;0
+888;Daniels Bailey;Brenda;+77 674 337 247;1
+889;Sims Welch;Louis;+64 076 166 554;1
+890;Lawrence Bradley;Cheryl;+21 613 786 253;1
+891;Washington Spencer;Theresa;+45 856 040 087;1
+892;Freeman Chavez;Douglas;+70 382 366 825;1
+893;Tucker Nguyen;Lillian;+35 378 920 224;1
+894;Banks Burke;Ruth;+01 589 337 220;1
+895;Taylor Chapman;Christina;+16 026 466 715;1
+896;Mills Watkins;Peter;+03 994 087 067;1
+897;Nelson Carpenter;Anna;+68 609 055 233;1
+898;Warren Bryant;Joan;+16 364 476 753;1
+899;Clark Jenkins;George;+90 585 316 068;1
+900;Murray Black;Janet;+77 095 163 396;1
+901;Porter Montgomery;Nicole;+18 880 489 835;1
+902;Sullivan Cunningham;Kimberly;+57 759 302 568;1
+903;Jackson Foster;Joe;+54 504 298 906;1
+904;Gray Spencer;Donald;+79 777 645 438;1
+905;Woods Riley;Kelly;+99 495 994 335;1
+906;Little Wallace;Wanda;+57 530 673 569;1
+907;Nichols Peterson;Paula;-;1
+908;Roberts Daniels;Virginia;+22 500 531 819;1
+909;Stewart Baker;Jeremy;+57 868 032 859;1
+910;Brown Matthews;Raymond;+50 461 302 942;1
+911;Perry Harper;Kathryn;+23 094 248 600;1
+912;Andrews Thomas;Craig;+69 239 401 338;1
+913;Hamilton Reid;Albert;+29 713 428 044;1
+914;Gray Kelly;Betty;-;1
+915;Williams Lawrence;Louis;+70 915 066 612;1
+916;Hall Mitchell;Betty;+14 113 992 216;1
+917;Williamson Welch;Ernest;+92 381 839 135;1
+918;Ortiz Larson;Jean;+34 232 566 269;1
+919;Moreno Johnston;Walter;+43 828 076 878;1
+920;Howard Snyder;Margaret;-;1
+921;Jones Jones;Paul;-;1
+922;Taylor Johnson;George;+74 210 359 523;1
+923;Brown Parker;John;+56 677 180 750;1
+924;Patterson Medina;Ryan;+26 880 601 078;1
+925;Shaw Rice;Joyce;+60 313 198 993;1
+926;Reyes Murray;Norma;+37 349 581 627;1
+927;Murphy Walker;Terry;+68 948 249 665;1
+928;Mills Simpson;Aaron;+83 937 003 920;1
+929;Larson Ruiz;Katherine;+07 891 968 132;1
+930;Ryan Andrews;Steve;+28 168 462 671;1
+931;Stephens Stanley;Robert;+47 445 377 831;1
+932;Harper Gilbert;Joyce;+96 798 750 445;1
+933;Gardner Parker;Jimmy;+09 539 921 050;0
+934;Ramirez Cruz;Kevin;+38 384 057 981;1
+935;Sanders Payne;Emily;+26 602 455 941;1
+936;Sims Warren;Carolyn;+58 978 189 299;1
+937;Stanley Fowler;Donald;+03 817 054 926;1
+938;Thompson Roberts;Christine;+71 791 571 740;1
+939;Gomez Romero;James;+73 927 885 375;1
+940;Kelley Banks;Sharon;+74 851 055 284;1
+941;Hudson Price;Carl;+66 350 352 974;1
+942;White Ramirez;John;+37 039 929 845;1
+943;Jordan Montgomery;Jimmy;+19 746 239 666;0
+944;Kelly King;Doris;+08 649 529 993;1
+945;Montgomery Perez;Frances;+48 952 334 011;1
+946;Burns Lee;Terry;+34 903 422 313;1
+947;Edwards Fernandez;Steve;+14 630 502 152;1
+948;Williams Wilson;Timothy;+51 279 538 986;1
+949;Richardson Diaz;Wayne;-;1
+950;Reyes Simmons;Sean;+45 765 265 784;1
+951;Moore Moore;Anne;+41 008 429 103;1
+952;Payne Jenkins;Howard;-;1
+953;George Webb;Gary;+35 192 706 225;1
+954;Gonzalez Ford;Gary;+02 209 691 761;1
+955;Henderson Rodriguez;Wanda;+59 415 400 755;1
+956;Alexander Gonzales;Dennis;+45 094 968 030;1
+957;Daniels Reynolds;Fred;+87 904 639 186;1
+958;Butler Kelly;Jacqueline;+34 131 032 703;1
+959;Medina Bishop;Sandra;+86 656 245 985;1
+960;Willis Armstrong;Joe;-;1
+961;Reyes Willis;Earl;+60 560 189 308;1
+962;Pierce Cooper;Sharon;+56 804 393 399;1
+963;Miller Scott;Judith;+91 006 399 235;1
+964;Garcia Harper;Richard;+96 535 487 538;1
+965;Morrison Mendoza;Beverly;-;1
+966;Cooper Cook;Chris;+66 903 521 102;1
+967;Russell Franklin;Deborah;+15 317 261 110;1
+968;Riley Simpson;Gerald;+67 136 266 497;1
+969;Moreno Hughes;Sharon;+23 219 899 583;1
+970;Bishop Green;Jack;+84 317 565 438;1
+971;White Castillo;Evelyn;+90 550 003 844;1
+972;Montgomery Fox;Amanda;+35 900 273 078;1
+973;Young Powell;Martin;+83 230 327 296;1
+974;Crawford Hunt;Joyce;+74 599 822 880;1
+975;Garcia Foster;Earl;+80 921 466 501;1
+976;Jacobs Alvarez;Evelyn;+23 866 873 196;1
+977;Reed Elliott;Gary;+76 730 777 273;1
+978;Powell Wilson;Karen;+92 908 469 444;1
+979;Tucker Hanson;Henry;+52 566 741 337;1
+980;Harvey Grant;Cynthia;+32 836 786 429;1
+981;Murphy Johnston;Annie;+83 630 358 842;1
+982;Anderson Mcdonald;Nancy;+19 871 875 506;1
+983;Perry Taylor;Daniel;+86 253 489 688;1
+984;Graham Adams;Brenda;+66 949 566 752;1
+985;Marshall Cox;Phyllis;+41 208 802 230;1
+986;Bowman Mills;Roger;+05 571 115 720;1
+987;Burns Rivera;Gary;+37 489 947 856;1
+988;Bowman Griffin;Gloria;+76 181 594 033;1
+989;Burton Cunningham;Brian;+87 052 569 563;1
+990;Chavez Russell;Joe;+00 785 500 168;1
+991;Gray Stewart;Fred;+18 149 651 675;1
+992;Thomas Watson;Julia;+59 564 607 062;1
+993;Schmidt Jackson;Ryan;+75 120 952 197;1
+994;Clark Evans;Cynthia;-;1
+995;Hall Butler;Pamela;-;1
+996;Rodriguez Kim;Fred;+29 187 233 541;1
+997;Cole Peterson;Norma;+24 383 358 843;1
+998;Carpenter Richards;Eugene;+53 242 957 772;1
+999;Johnston Weaver;Harry;+88 825 612 239;1
+1000;Alexander Fowler;Daniel;+28 048 710 166;1
