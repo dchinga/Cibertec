@@ -1,14 +1,14 @@
 package entidades;
 
 public class Hospedaje {
-	public int codigo;
-	public int codigoReserva;
-	public int codigoCliente;
-	public int numeroHabitacion;
-	public int codigoRecepcionista;
-	public int tipo;
-	public String fechaRegistro;
-	public int estado;
+	private int codigo;
+	private int codigoReserva;
+	private int codigoCliente;
+	private int numeroHabitacion;
+	private int codigoRecepcionista;
+	private int tipo;
+	private String fechaRegistro;
+	private int estado;
 
 	public Hospedaje(int codigo, int codigoReserva, int codigoCliente, 
 			int numeroHabitacion, int codigoRecepcionista,

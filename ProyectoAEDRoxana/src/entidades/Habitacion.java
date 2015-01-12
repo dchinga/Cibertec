@@ -1,11 +1,11 @@
 package entidades;
 
 public class Habitacion {
-	public int numero;
-	public String descripcion;
-	public int tipo;
-	public int ubicacion;
-	public double costo;
+	private int numero;
+	private String descripcion;
+	private int tipo;
+	private int ubicacion;
+	private double costo;
 	
 	public Habitacion(int numero, String descripcion, int tipo, int ubicacion, double costo) {
 		this.numero = numero;

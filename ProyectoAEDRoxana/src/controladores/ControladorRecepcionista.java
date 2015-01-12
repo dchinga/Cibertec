@@ -43,7 +43,7 @@ public class ControladorRecepcionista {
 	/**
 	 * Modifica un recepcionista de la colección
 	 * 
-	 * @param e
+	 * @param x
 	 *            recepcionista
 	 */
 	public void modificar(Recepcionista x) {

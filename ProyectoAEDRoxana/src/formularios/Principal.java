@@ -1,3 +1,4 @@
+
 package formularios;
 
 import java.awt.Dimension;
@@ -63,20 +64,20 @@ public class Principal implements ActionListener {
 					// window.frmSistemaDeGestin
 					// .setExtendedState(JFrame.MAXIMIZED_BOTH);
 					// size of the screen
-					Dimension screenSize = Toolkit.getDefaultToolkit()
+					/*Dimension screenSize = Toolkit.getDefaultToolkit()
 							.getScreenSize();
-
+*/
 					// height of the task bar
-					Insets scnMax = Toolkit.getDefaultToolkit()
+					/*Insets scnMax = Toolkit.getDefaultToolkit()
 							.getScreenInsets(
 									window.frmSistemaDeGestin
 											.getGraphicsConfiguration());
-					int taskBarSize = scnMax.bottom;
+					int taskBarSize = scnMax.bottom;*/
 
 					// available size of the screen
-					window.frmSistemaDeGestin.setBounds(0, 0, screenSize.width,
+					/*window.frmSistemaDeGestin.setBounds(0, 0, screenSize.width,
 							screenSize.height - taskBarSize);
-					window.frmSistemaDeGestin.setAlwaysOnTop(true);
+					window.frmSistemaDeGestin.setAlwaysOnTop(true);*/
 
 				} catch (Exception e) {
 					e.printStackTrace();

@@ -43,7 +43,7 @@ public class ControladorHabitacion {
 	/**
 	 * Modifica una habitación de la colección
 	 * 
-	 * @param e
+	 * @param x
 	 *            habitación
 	 */
 	public void modificar(Habitacion x) {

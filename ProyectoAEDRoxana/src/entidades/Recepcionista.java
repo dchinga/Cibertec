@@ -1,11 +1,11 @@
 package entidades;
 
 public class Recepcionista {
-	public int codigo;
-	public int estado;
-	public String apellido;
-	public String nombre;
-	public String telefono;
+	private int codigo;
+	private int estado;
+	private String apellido;
+	private String nombre;
+	private String telefono;
 
 	public Recepcionista(int codigo, String apellido, String nombre,
 			String telefono, int estado) {

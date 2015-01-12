@@ -1,11 +1,11 @@
 package entidades;
 
 public class Cliente {
-	public int codigo;
-	public String apellido;
-	public String nombre;
-	public String telefono;
-	public int estado;
+	private int codigo;
+	private String apellido;
+	private String nombre;
+	private String telefono;
+	private int estado;
 
 	public Cliente(int codigo, String apellido, String nombre, String telefono, int estado) {
 		this.codigo = codigo;

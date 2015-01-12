@@ -9,69 +9,121 @@ import java.util.StringTokenizer;
 
 import javax.swing.JOptionPane;
 
-import entidades.Habitacion;
 import entidades.Reserva;
+
+/**
+ * Clase que representa una reserva
+ * 
+ * @author Roxana Ramírez
+ */
 public class ControladorReserva {
-	
+
 	private String nombreArchivo = "reservas.txt";
-	
+
 	private ArrayList<Reserva> reservas;
 
+	/**
+	 * Constructor
+	 */
 	public ControladorReserva() {
 		reservas = new ArrayList<Reserva>();
 		cargar();
 	}
 
-	public void adicionar(Reserva r) {
-		reservas.add(r);
+	/**
+	 * Adiciona una reserva a la colección
+	 * 
+	 * @param x
+	 *            reserva
+	 */
+	public void adicionar(Reserva x) {
+		reservas.add(x);
 	}
 
-	public void eliminar(Reserva r) {
-		reservas.remove(r);
-	}
-
-	public Reserva obtener(int posicion) {
-		return reservas.get(posicion);
-	}
-
-	public void modificar(Reserva e) {
+	/**
+	 * Modifica una reserva de la colección
+	 * 
+	 * @param x
+	 *            reserva
+	 */
+	public void modificar(Reserva x) {
 		for (int i = 0; i < tamaño(); i++) {
-			Reserva e2 = obtener(i);
-			if (e.getCodigo() == e2.getCodigo())
-				reservas.set(i, e);
+			Reserva x2 = obtener(i);
+			if (x.getCodigo() == x2.getCodigo())
+				reservas.set(i, x);
 		}
 	}
+
+	/**
+	 * Elimina una reserva de la colección
+	 * 
+	 * @param x
+	 *            reserva
+	 */
+	public void eliminar(Reserva x) {
+		reservas.remove(x);
+	}
+
+	/**
+	 * Obtiene una reserva por su posición en la colección
+	 * 
+	 * @param pos
+	 *            posición a buscar
+	 * @return reserva encontrado
+	 */
+	public Reserva obtener(int pos) {
+		return reservas.get(pos);
+	}
+
+	/**
+	 * Tamaño de la colección
+	 * 
+	 * @return tamaño
+	 */
 	public int tamaño() {
 		return reservas.size();
 	}
 
+	/**
+	 * Busca una reserva por su código
+	 * 
+	 * @param codigo
+	 *            código de reserva
+	 * @return reserva. De no encontrarse, se devuelve null
+	 */
 	public Reserva buscar(int codigo) {
-		for (Reserva r : reservas)
-			if (r.getCodigo() == codigo)
-				return r;
+		for (Reserva h : reservas)
+			if (h.getCodigo() == codigo)
+				return h;
 		return null;
 	}
 
-
-	
-	public int generarNumero() {
+	/**
+	 * Genera el código correlativo para una nueva reserva
+	 * 
+	 * @return código generado
+	 */
+	public int generarCodigo() {
 		if (tamaño() == 0)
 			return 1;
 		else
 			return reservas.get(tamaño() - 1).getCodigo() + 1;
 	}
-	
-	
+
+	/**
+	 * Graba la colección a un archivo de texto
+	 */
 	public void grabar() {
 		try {
 			PrintWriter pw = new PrintWriter(new FileWriter(this.nombreArchivo));
 			String linea = "";
 
-			for (Reserva  x : reservas) {
+			for (Reserva x : reservas) {
 				linea = x.getCodigo() + ";" + x.getCodigoCliente() + ";"
-						+ x.getCodigoRecepcionista() + ";" + x.getNumeroHabitacion() + ";"
-						+ x.getFechaRegistro()+";"+x.getFechaIngreso()+";"+x.getFechaSalida()+";"
-						+ x.getEstado();
+						+ x.getCodigoRecepcionista() + ";"
+						+ x.getNumeroHabitacion() + ";" + x.getFechaRegistro()
+						+ ";" + x.getFechaIngreso() + ";" + x.getFechaSalida()
+						+ ";" + x.getEstado();
 				pw.println(linea);
 			}
 			pw.close();
@@ -79,30 +131,33 @@ public class ControladorReserva {
 			mensaje("Error : " + e);
 		}
 	}
-	
-	
+
+	/**
+	 * Carga las reservas del archivo a la colección
+	 */
 	public void cargar() {
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(
 					this.nombreArchivo));
-			String linea;
-			String fecIn,fecReg,fecSalida;
-			int numero, codCli, codRecep,numHabi,estado;
-			
+			String linea, fechaRegistro, fechaIngreso, fechaSalida;
+			int codigo, codigoCliente, codigoRecepcionista, numeroHabitacion, estado;
 			StringTokenizer st;
 
 			while ((linea = br.readLine()) != null) {
 				st = new StringTokenizer(linea, ";");
-				numero= Integer.parseInt(st.nextToken().trim());
-				codCli = Integer.parseInt(st.nextToken().trim());
-				codRecep= Integer.parseInt(st.nextToken().trim());
-				numHabi= Integer.parseInt(st.nextToken().trim());
-				fecIn=st.nextToken().trim();
-				fecReg= st.nextToken().trim();
-				fecSalida=st.nextToken().trim();
+
+				codigo = Integer.parseInt(st.nextToken().trim());
+				codigoCliente = Integer.parseInt(st.nextToken().trim());
+				codigoRecepcionista = Integer.parseInt(st.nextToken().trim());
+				numeroHabitacion = Integer.parseInt(st.nextToken().trim());
+				fechaRegistro = st.nextToken().trim();
+				fechaIngreso = st.nextToken().trim();
+				fechaSalida = st.nextToken().trim();
 				estado = Integer.parseInt(st.nextToken().trim());
-				Reserva x = new Reserva(numero, codCli, codRecep, numHabi,
-						fecReg,fecIn,fecSalida,estado);
+
+				Reserva x = new Reserva(codigo, codigoCliente,
+						codigoRecepcionista, numeroHabitacion, fechaRegistro,
+						fechaIngreso, fechaSalida, estado);
 				adicionar(x);
 			}
 			br.close();
@@ -110,7 +165,13 @@ public class ControladorReserva {
 			mensaje("Error : " + e);
 		}
 	}
-	
+
+	/**
+	 * Muestra un mensaje
+	 * 
+	 * @param s
+	 *            mensaje a mostrar
+	 */
 	private void mensaje(String s) {
 		JOptionPane.showMessageDialog(null, s);
 	}

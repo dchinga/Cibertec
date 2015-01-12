@@ -43,7 +43,7 @@ public class ControladorCliente {
 	/**
 	 * Modifica un cliente de la colección
 	 * 
-	 * @param e
+	 * @param x
 	 *            cliente
 	 */
 	public void modificar(Cliente x) {
