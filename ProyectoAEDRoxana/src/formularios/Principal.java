@@ -26,6 +26,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.KeyEvent;
 import java.io.ObjectInputStream.GetField;
+import java.awt.event.InputEvent;
 
 public class Principal implements ActionListener {
 
@@ -118,6 +119,7 @@ public class Principal implements ActionListener {
 		mnuPrincipal.add(mnMantenimiento);
 
 		mntmHabitacion = new JMenuItem("Habitaci\u00F3n");
+		mntmHabitacion.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F2, InputEvent.ALT_MASK));
 		mntmHabitacion.addActionListener(this);
 		ImageIcon iconHabitacion = new ImageIcon(
 				Principal.class.getResource("/recursos/bed6.png"));
@@ -125,7 +127,6 @@ public class Principal implements ActionListener {
 		mntmHabitacion.setIcon(new ImageIcon(iconHabitacion.getImage()
 				.getScaledInstance(widthHabitacion, -1,
 						java.awt.Image.SCALE_SMOOTH)));
-		mntmHabitacion.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_H, Toolkit.getDefaultToolkit ().getMenuShortcutKeyMask()));
 		mnMantenimiento.add(mntmHabitacion);
 
 		mntmCliente = new JMenuItem("Cliente");
@@ -200,7 +201,7 @@ public class Principal implements ActionListener {
 
 		mntmReporteRecepcionista = new JMenuItem(
 				"Hospedajes por recepcionista");
-		mntmReporteRecepcionista.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_1, Toolkit.getDefaultToolkit ().getMenuShortcutKeyMask()));
+		mntmReporteRecepcionista.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_F9, InputEvent.ALT_MASK));
 		mnReportes.add(mntmReporteRecepcionista);
 
 		mntmReporteHabitacion = new JMenuItem(

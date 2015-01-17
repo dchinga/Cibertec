@@ -44,10 +44,7 @@ import java.awt.event.KeyEvent;
 import java.util.Date;
 
 import javax.swing.border.TitledBorder;
-
-import org.jdatepicker.impl.JDatePanelImpl;
-import org.jdatepicker.impl.JDatePickerImpl;
-import org.jdatepicker.impl.UtilDateModel;
+import com.toedter.calendar.JDateChooser;
 
 public class FrmIngresoReserva extends JFrame implements ActionListener,
 		MouseListener, KeyListener {
@@ -69,7 +66,6 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 	private JTextField txtCodigo;
 	private JTextField txtCodCliente;
 	private JComboBox<?> cboEstado;
-	private JTextField txtFechaIngreso;
 	private JScrollPane scpPanel;
 	private JLabel lblInfo;
 
@@ -92,8 +88,6 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 	private JLabel lblRecepcionista;
 	private JTextField txtCodRecepcionista;
 	private JTextField txtNumHabitacion;
-	private JTextField txtFechaSalida;
-	private JTextField txtFechaRegistro;
 	private JLabel lblFechaRegistro;
 	private JTextField txtNombreCliente;
 	private JTextField txtNombreRecepcionista;
@@ -101,6 +95,9 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 	private JButton btnBuscarCliente;
 	private JButton btnBuscarRecepcionista;
 	private JButton btnBuscarHabitacion;
+	private JDateChooser dtFechaSalida;
+	private JDateChooser dtFechaIngreso;
+	private JDateChooser dtFechaRegistro;
 
 	/**
 	 * Constructor privado del formulario
@@ -185,12 +182,12 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 				}
 				{
 					lblCodigo = new JLabel("C\u00F3digo de Reserva");
-					lblCodigo.setBounds(10, 57, 132, 14);
+					lblCodigo.setBounds(10, 51, 132, 14);
 					pnlInformacion.add(lblCodigo);
 				}
 				{
 					txtCodigo = new JTextField();
-					txtCodigo.setBounds(152, 54, 50, 20);
+					txtCodigo.setBounds(152, 50, 50, 20);
 					pnlInformacion.add(txtCodigo);
 					txtCodigo.setColumns(10);
 				}
@@ -201,32 +198,27 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 				}
 				{
 					lblFechaIngreso = new JLabel("Fecha de Ingreso");
-					lblFechaIngreso.setBounds(512, 81, 100, 14);
+					lblFechaIngreso.setBounds(512, 77, 100, 14);
 					pnlInformacion.add(lblFechaIngreso);
 				}
 				{
 					txtCodCliente = new JTextField();
 					txtCodCliente.setEnabled(false);
-					txtCodCliente.setBounds(152, 78, 50, 20);
+					txtCodCliente.setBounds(152, 74, 50, 20);
 					pnlInformacion.add(txtCodCliente);
 					txtCodCliente.setColumns(10);
 				}
 				{
 					cboEstado = new JComboBox();
+					cboEstado.setEnabled(false);
 					cboEstado.setBounds(640, 126, 150, 20);
 					pnlInformacion.add(cboEstado);
 					cboEstado.setModel(new DefaultComboBoxModel(new String[] {
 							"Iniciada", "Anulada", "Atendida" }));
 				}
 				{
-					txtFechaIngreso = new JTextField();
-					txtFechaIngreso.setBounds(640, 78, 150, 20);
-					pnlInformacion.add(txtFechaIngreso);
-					txtFechaIngreso.setColumns(10);
-				}
-				{
 					lblCliente = new JLabel("Cliente");
-					lblCliente.setBounds(10, 81, 100, 14);
+					lblCliente.setBounds(10, 77, 100, 14);
 					pnlInformacion.add(lblCliente);
 				}
 				{
@@ -267,14 +259,14 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 				}
 				{
 					lblRecepcionista = new JLabel("Recepcionista");
-					lblRecepcionista.setBounds(10, 105, 126, 14);
+					lblRecepcionista.setBounds(10, 101, 126, 14);
 					pnlInformacion.add(lblRecepcionista);
 				}
 
 				txtCodRecepcionista = new JTextField();
 				txtCodRecepcionista.setEnabled(false);
 				txtCodRecepcionista.setColumns(10);
-				txtCodRecepcionista.setBounds(152, 102, 50, 20);
+				txtCodRecepcionista.setBounds(152, 98, 50, 20);
 				pnlInformacion.add(txtCodRecepcionista);
 
 				txtNumHabitacion = new JTextField();
@@ -287,38 +279,26 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 				lblHabitacion.setBounds(10, 129, 100, 14);
 				pnlInformacion.add(lblHabitacion);
 
-				txtFechaSalida = new JTextField();
-				txtFechaSalida.setEnabled(false);
-				txtFechaSalida.setColumns(10);
-				txtFechaSalida.setBounds(640, 102, 150, 20);
-				pnlInformacion.add(txtFechaSalida);
-
 				JLabel lblFechaSalida = new JLabel("Fecha de Salida");
-				lblFechaSalida.setBounds(512, 105, 100, 14);
+				lblFechaSalida.setBounds(512, 101, 100, 14);
 				pnlInformacion.add(lblFechaSalida);
-
-				txtFechaRegistro = new JTextField();
-				txtFechaRegistro.setEnabled(false);
-				txtFechaRegistro.setColumns(10);
-				txtFechaRegistro.setBounds(640, 54, 150, 20);
-				pnlInformacion.add(txtFechaRegistro);
 				{
 					lblFechaRegistro = new JLabel("Fecha de Registro");
-					lblFechaRegistro.setBounds(512, 57, 100, 14);
+					lblFechaRegistro.setBounds(512, 54, 100, 14);
 					pnlInformacion.add(lblFechaRegistro);
 				}
 				{
 					txtNombreCliente = new JTextField();
 					txtNombreCliente.setEnabled(false);
 					txtNombreCliente.setColumns(10);
-					txtNombreCliente.setBounds(207, 78, 210, 20);
+					txtNombreCliente.setBounds(207, 74, 210, 20);
 					pnlInformacion.add(txtNombreCliente);
 				}
 				{
 					txtNombreRecepcionista = new JTextField();
 					txtNombreRecepcionista.setEnabled(false);
 					txtNombreRecepcionista.setColumns(10);
-					txtNombreRecepcionista.setBounds(207, 102, 210, 20);
+					txtNombreRecepcionista.setBounds(207, 98, 210, 20);
 					pnlInformacion.add(txtNombreRecepcionista);
 				}
 				{
@@ -330,18 +310,34 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 				}
 				{
 					btnBuscarCliente = new JButton("...");
-					btnBuscarCliente.setBounds(420, 78, 20, 20);
+					btnBuscarCliente.setBounds(420, 74, 20, 20);
 					pnlInformacion.add(btnBuscarCliente);
 				}
 				{
 					btnBuscarRecepcionista = new JButton("...");
-					btnBuscarRecepcionista.setBounds(420, 102, 20, 20);
+					btnBuscarRecepcionista.setBounds(420, 98, 20, 20);
 					pnlInformacion.add(btnBuscarRecepcionista);
 				}
 				{
 					btnBuscarHabitacion = new JButton("...");
 					btnBuscarHabitacion.setBounds(420, 126, 20, 20);
 					pnlInformacion.add(btnBuscarHabitacion);
+				}
+				{
+					dtFechaSalida = new JDateChooser();
+					dtFechaSalida.setBounds(640, 98, 150, 20);
+					pnlInformacion.add(dtFechaSalida);
+				}
+				{
+					dtFechaIngreso = new JDateChooser();
+					dtFechaIngreso.setBounds(640, 74, 150, 20);
+					pnlInformacion.add(dtFechaIngreso);
+				}
+				{
+					dtFechaRegistro = new JDateChooser();
+					dtFechaRegistro.setBounds(640, 51, 150, 20);
+					dtFechaRegistro.getDateEditor().setEnabled(false);
+					pnlInformacion.add(dtFechaRegistro);
 				}
 			}
 		}
@@ -390,8 +386,8 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 		btnBuscarCliente.setEnabled(valor);
 		btnBuscarRecepcionista.setEnabled(valor);
 		btnBuscarHabitacion.setEnabled(valor);
-		txtFechaIngreso.setEnabled(valor);
-		txtFechaSalida.setEnabled(valor);
+		dtFechaIngreso.getDateEditor().setEnabled(valor);
+		dtFechaSalida.getDateEditor().setEnabled(valor);
 		btnGuardar.setEnabled(valor);
 		btnCancelar.setEnabled(valor);
 
@@ -406,7 +402,7 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 
 		accion = ACCION_AGREGAR;
 		txtCodigo.setText("" + controlador.generarCodigo());
-		txtFechaRegistro.setText(new Date().toString());
+		dtFechaRegistro.setDate(new Date());
 		cboEstado.setSelectedIndex(0);
 	}
 
@@ -460,15 +456,15 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 
 	// ---------------------------------------------------------
 	String getFecIngreso() {
-		return txtFechaIngreso.getText();
+		return dtFechaIngreso.getDate().toString();
 	}
 
 	String getFecSalida() {
-		return txtFechaSalida.getText();
+		return dtFechaSalida.getDate().toString();
 	}
 
 	String getFecRegistro() {
-		return txtFechaRegistro.getText();
+		return dtFechaRegistro.getDate().toString();
 	}
 
 	// ---------------------------------------------------------
@@ -543,7 +539,8 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 		txtCodCliente.setText("");
 		cboEstado.setSelectedIndex(0);
 
-		txtFechaIngreso.setText("");
+		dtFechaIngreso.setDate(new Date());
+		dtFechaSalida.setDate(new Date());
 	}
 
 	protected void btnConsultarActionPerformed(ActionEvent e) {
@@ -564,9 +561,9 @@ public class FrmIngresoReserva extends JFrame implements ActionListener,
 		txtNumHabitacion.setText("" + obj.getNumeroHabitacion());
 		cboEstado.setSelectedIndex(obj.getEstado());
 
-		txtFechaIngreso.setText("" + obj.getFechaIngreso());
-		txtFechaRegistro.setText("" + obj.getFechaRegistro());
-		txtFechaSalida.setText("" + obj.getFechaSalida());
+		dtFechaIngreso.setDate(new Date(obj.getFechaIngreso()));
+		dtFechaRegistro.setDate(new Date(obj.getFechaRegistro()));
+		dtFechaSalida.setDate(new Date(obj.getFechaSalida()));
 	}
 
 	public void mouseClicked(MouseEvent e) {
